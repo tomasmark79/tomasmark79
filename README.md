@@ -2,7 +2,7 @@
 - 👀 I’m interested in ...linux, music, nature
 - 🌱 I’m currently learning ... understand the universe
 - 💞️ I’m looking to collaborate on ... success relationships
-- 📫 How to reach me ... is very dificult cause still wroking ;-)
+- 📫 How to reach me ... is very dificult - still working ;-)
 
 <!---
 tomasmark79/tomasmark79 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
