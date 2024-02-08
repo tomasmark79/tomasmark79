@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Tomas :-)
-- 👀 I’m interested in ...it, music, cycling, nature
+- 👀 I’m interested in ... IT, music, cycling, nature
 - 🌱 I’m currently learning C++ and ... understand the universe
 - 💞️ I’m looking to collaborate on ... work in IT
 - 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name ;-)
