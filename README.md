@@ -4,6 +4,8 @@
 - 💞️ I’m looking to collaborate on ... work in IT
 - 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name ;-)
 - https://digitalspace.name
+- https://it.DigitalSpace.Name
+- https://music.DigitalSpace.Name
 
 <!---
 tomasmark79/tomasmark79 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
