@@ -3,8 +3,7 @@
 - 🌱 I’m currently learning C++ and ... understand the universe
 - 💞️ I’m looking to collaborate on ... work in IT
 - 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name ;-)
-- https://digitalspace.name
-- https://it.DigitalSpace.Name
+- https://it.digitalspace.name
 - https://music.DigitalSpace.Name
 
 <!---
