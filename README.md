@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Tomas :-)
+- 👋 Hi, I’m Me :-)
 - 👀 I’m interested in ... IT, music, cycling, nature
-- 🌱 I’m currently learning C++ and ... understand the universe
-- 💞️ I’m looking to collaborate on ... work in IT
+- 🌱 I’m currently developer in C++ and ... understand the universe
+- 💞️ I’m looking to collaborate on ... work in C/C++ development IT
 - 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name ;-)
 - https://it.digitalspace.name
 - https://music.DigitalSpace.Name
