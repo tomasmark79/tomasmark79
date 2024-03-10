@@ -1,4 +1,4 @@
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=tomasmark79)](https://github.com/tomasmark79)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=tomasmark79&show_icons=true&theme=radical)
 
 - 👋 Hi, I’m Me :-)
 - 👀 I’m interested in ... IT, music, cycling, nature
