@@ -4,9 +4,9 @@
 - 👀 I’m interested in ... IT, music, cycling, nature
 - 🌱 I’m currently developer in C++ and ... understand the universe
 - 💞️ I’m looking to collaborate on ... writting in C/C++
-- 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name ;-)
+- 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name
 - https://it.digitalspace.name
-- https://music.DigitalSpace.Name
+- https://music.digitalspace.Name
 
 <!---
 tomasmark79/tomasmark79 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
