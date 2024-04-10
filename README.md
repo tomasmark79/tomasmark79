@@ -1,9 +1,9 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=tomasmark79&show_icons=true&theme=radical)
 
-- 👋 Hi, I’m Me :-)
-- 👀 I’m interested in ... IT, music, cycling, nature
-- 🌱 I’m currently developer in C++ and ... understand the universe
-- 💞️ I’m looking to collaborate on ... writting in C/C++
+- 👋 Hi :-)
+- 👀 I’m interested in IT, music, cycling, nature, relationships ...
+- 🌱 I’m currently writting code often in C++ ...
+- 💞️ I’m looking to collaborate on some programming projects ...
 - 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name
 - https://it.digitalspace.name
 - https://music.digitalspace.Name
