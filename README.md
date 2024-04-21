@@ -1,12 +1,12 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=tomasmark79&show_icons=true&theme=radical)
 
-- 👋 Hi :-)
-- 👀 I’m interested in IT, music, cycling, nature, relationships ...
-- 🌱 I’m currently writting code often in C++ ...
-- 💞️ I’m looking to collaborate on some programming projects ...
-- 📫 How to reach me ... drop here message for me or via tomas@digitalspace.name
-- https://it.digitalspace.name
-- https://music.digitalspace.Name
+- 👋 Hi, Welcome! :-)
+- 👀 I’m interested in music, cycling, nature, relationships and programming.
+- 🌱 I’m currently interested be professional in C++ developent.
+- 💞️ I’m looking to collaborate.
+- 📫 How to reach me? drop here a message or send me one via email tomas@digitalspace.name
+- https://it.digitalspace.name - my professional prezentation
+- https://music.digitalspace.Name - music is my next love how to consume free time
 
 <!---
 tomasmark79/tomasmark79 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
