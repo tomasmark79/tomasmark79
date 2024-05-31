@@ -2,7 +2,7 @@
 
 - 👋 Hi, Welcome!
 - 👀 I’m interested in music, cycling, nature, relationships and programming
-- 🌱 I’m currently interested in C++, AI, ...
+- 🌱 I’m currently interested in C++, AI, Debian, Kubuntu, Raspberry, FireFly, Vivaldi, Android, ...
 - 💞️ I’m looking to collaborate.
 - 📫 How to reach me? drop here a message or send me one via email tomas@digitalspace.name
 - https://it.digitalspace.name - my web
