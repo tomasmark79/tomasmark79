@@ -2,7 +2,7 @@
 - 👀 I’m interested in recreational cycling, nature, relationships, music and computers
 - 🌱 I’m currently interested in all the IT stuff
 - 💞️ I’m looking to collaborate.
-- 📫 How to reach me? drop here a message or via email tomas@digitalspace.name
+- 📫 How to reach me? Drop here a message or via email tomas@digitalspace.name
   
 Some stats
 
