@@ -2,21 +2,26 @@
 
 **Current Tech Stack**
 
-VS Code, C, C++, CMake, Meson, Make, Conan, Google Test  
-SQL, Bash, Python, PHP  
-REST APIs  
-Git, GitHub, CI/CD pipelines  
+VS Code, C, C++, JavaScript, CMake, Meson, Make, Conan, Cross-compiler, Google Test
+SQL (query tuning / debugging), Bash, Python, PHP, AJAX, CSV, JSON
+REST APIs
 
-Fedora Workstation → CentOS Server, Debian Server, Raspberry Pi OS Server (Embedded)  
+Git, GitHub, Open Source, Copilot, CI/CD pipelines
 
-KVM/QEMU virtualization, libvirt  
-Apache2, PHP, Redis, WordPress (plugins), ISPConfig  
-Postfix, Dovecot, RSPAMD, DHCP, BIND9 (DNS), Pure-FTPd  
+Linux (Debian, Fedora) — Desktop Linux, Linux Servers
+Fedora Workstation → CentOS Server, Debian Server, Raspberry Pi OS (Embedded / Pi OS)
 
-OpenVPN, SSL/TLS, SSH  
-iptables, nftables, Fail2Ban  
+KVM / QEMU virtualization, libvirt, Proxmox, Docker, Coolify
 
-systemd  
-SSHFS, CIFS/Samba, Synology NAS  
+Apache2, PHP, Redis, WordPress (plugins development & maintenance), ISPConfig
+Postfix, ClamAV, RSPAMD, DHCP, BIND9 (DNS), Pure-FTPd
 
-Ubiquiti UniFi (APs, Controller)  
+OpenVPN, SSL/TLS, SSH, SFTP
+iptables, nftables, Fail2Ban
+
+systemd
+SSHFS, CIFS/Samba, Synology NAS
+
+X11, GNOME
+Ubiquiti UniFi (APs, Controller)
+Tuya Smart API
