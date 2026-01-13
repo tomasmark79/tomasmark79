@@ -1,4 +1,22 @@
 *Thank you for visiting!*
 
-Current tech stack:
-VSCode, C++, CMake, GoogleTests, SQL, Bash, Python, RestAPI, Fedora Workstation, Debian Server, Raspberry PiOS Server, Virtualizace KVM/Qemu, libvirt, X11 forwarding, Joplin, Git, GitHub, CI/CD pipeline, Coolify, Docker, ISPConfig, Embedded chipsets, Apache2, Clamav, Fail2Ban, IPTables, Postfix, OpenVPN, Synology, PHP, Redis, PureFTP, Unifi controller, Tuya Smart Api, SSL, Digitální Certifikáty, Gnome, WordPress + Plugins
+**Current Tech Stack**
+
+VS Code, C, C++, CMake, Meson, Make, Conan, Google Test  
+SQL, Bash, Python, PHP  
+REST APIs  
+Git, GitHub, CI/CD pipelines  
+
+Fedora Workstation → CentOS Server, Debian Server, Raspberry Pi OS Server (Embedded)  
+
+KVM/QEMU virtualization, libvirt  
+Apache2, PHP, Redis, WordPress (plugins), ISPConfig  
+Postfix, Dovecot, RSPAMD, DHCP, BIND9 (DNS), Pure-FTPd  
+
+OpenVPN, SSL/TLS, SSH  
+iptables, nftables, Fail2Ban  
+
+systemd  
+SSHFS, CIFS/Samba, Synology NAS  
+
+Ubiquiti UniFi (APs, Controller)  
