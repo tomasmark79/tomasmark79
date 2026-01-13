@@ -2,6 +2,7 @@
 
 **Current Tech Stack**
 
+```
 VS Code, C, C++, JavaScript, CMake, Meson, Make, Conan, Cross-compiler, Google Test
 SQL (query tuning / debugging), Bash, Python, PHP, AJAX, CSV, JSON
 REST APIs
@@ -25,3 +26,4 @@ SSHFS, CIFS/Samba, Synology NAS
 X11, GNOME
 Ubiquiti UniFi (APs, Controller)
 Tuya Smart API
+```
