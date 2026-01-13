@@ -1,8 +1,9 @@
 *Thank you for visiting!*
 
-**Current Tech Stack**
-
+---
 ```
+Current Tech Stack
+
 VS Code, C, C++, JavaScript, CMake, Meson, Make, Conan, Cross-compiler, Google Test
 SQL (query tuning / debugging), Bash, Python, PHP, AJAX, CSV, JSON
 REST APIs
