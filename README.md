@@ -1,6 +1,7 @@
 *Thank you for visiting!*
 
 ---
+[Certificates & Credentials](https://github.com/tomasmark79/tomasmark79/tree/main/Certifications)
 
 Tech Stack
 
