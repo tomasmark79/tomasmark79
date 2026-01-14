@@ -6,7 +6,7 @@ Tech Stack
 
 Software Engineer / Infrastructure Administrator / Linux Administrator
 
-> C++, C, Make, CMake, Meson, Conan, Cross-compilation, Google Test, VS Code, Git, GitHub, CI/CD pipelines, Copilot, SQL, Bash, Python, JS, PHP, REST APIs, Web Applications, AJAX, WordPress (plugins development & maintenance), VBA, VBScript, Visual Basic
+> C++, C, Make, CMake, Meson, Conan, Cross-compilation, Google Test, VS Code, Git, GitHub, CI/CD pipelines, Copilot, SQL, Bash, Python, JS, PHP, REST APIs, Web Applications, AJAX, WordPress (plugins development & maintenance), VBA, VBScript, Visual Basic, Automate Fortra
 
 > Windows Server, Microsoft Servers, Terminal Services (RDP), Veeam Backup, ESET, ServiceNow, monitoring, logging, backup strategies, hardened configurations, Warehouse & Industrial Systems, Avery Thermal Printers, VMware vSphere, Hyper-V, Computer Networks
 
