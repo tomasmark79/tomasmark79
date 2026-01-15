@@ -1,10 +1,10 @@
 *Thank you for visiting!*
 
 ---
-[CV](https://github.com/tomasmark79/tomasmark79/blob/main/Certifications/Tomas-Mark-2026-CV-CZ-EN.pdf)  
-[Certificates & Credentials](https://github.com/tomasmark79/tomasmark79/tree/main/Certifications)
+[CV 2016+](https://github.com/tomasmark79/tomasmark79/blob/main/cv/Tomas-Mark-2026-CV-CZ-EN.pdf)  
+[Consumed curses](https://github.com/tomasmark79/tomasmark79/tree/main/Certifications)
 
-Tech Stack
+> Tech Stack <2014 2016>
 
 Software Engineer / Infrastructure Administrator / Linux Administrator
 
