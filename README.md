@@ -1,4 +1,3 @@
-[GRemoteX](https://gremotex.digitalspace.name/)  
-- řešení pro ovládání věcí z **GARMIN** hodinek  
+**GREMOTEX** - Individuální řešení pro ovládání zařízení, služeb a automatizací z Garmin hodinek.  
 [gremotex.digitalspace.name](https://gremotex.digitalspace.name/)
 
