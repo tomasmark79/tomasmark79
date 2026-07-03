@@ -1,2 +1,1 @@
 [**GREMOTEX**](https://gremotex.digitalspace.name) Řešení pro ovládání zařízení z Garmin hodinek.  
-[**DDWRT CZ Translation**](https://github.com/mirror/dd-wrt/blob/660026e2a5f7a14d2f0c58b0f29c75884c8846fd/src/router/kromo/dd-wrt/lang_pack/czech.js)
