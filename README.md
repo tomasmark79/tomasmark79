@@ -18,4 +18,6 @@
 - [**WebDotName**](https://webdotname.digitalspace.name) — graphical shader renderer demo.
 - [**GRemoteX**](https://gremotex.digitalspace.name) — presentation website for a non-open-source Garmin watch project.
 
-[PayPal Me ☕](https://paypal.me/TomasMark)  
+---
+
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
