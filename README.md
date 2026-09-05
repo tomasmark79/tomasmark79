@@ -7,17 +7,15 @@
 
 ## Other projects
 
-- [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — C++20 project template. [Open the web app](https://nixoncpp.digitalspace.name)
-- [**SafeData**](https://github.com/tomasmark79/safedata) — universal backup script for Linux and NixOS.
-- [**RoutePeek**](https://github.com/tomasmark79/routepeek) — Chrome extension showing routes beside items on any website.
-- [**DreamScaler LED Controller**](https://github.com/tomasmark79/DreamScalerUsbLedStripController) — USB controller for RGBW strips with MIDI and Bitwig support.
-- [**Czenglish**](https://github.com/tomasmark79/czenglish) — Czech keyboard layout combined with the US layout.
+- [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — C++20 project template. [C++ compiled for web is supported too](https://nixoncpp.digitalspace.name)
+- [**SafeData**](https://github.com/tomasmark79/safedata) — Universal backup script for LVM volumes and regular directories.
+- [**DreamScaler LED Controller**](https://github.com/tomasmark79/DreamScalerUsbLedStripController) — USB controller for RGBW strips with MIDI and Bitwig Studio support.
 
 ## Demos and presentations
 
 - [**WebDotName**](https://webdotname.digitalspace.name) — graphical shader renderer demo.
 - [**GRemoteX**](https://gremotex.digitalspace.name) — presentation website for a non-open-source Garmin watch project.
 
----
+...
 
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
