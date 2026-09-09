@@ -11,11 +11,13 @@
 - [**SafeData**](https://github.com/tomasmark79/safedata) — Universal backup script for LVM volumes and regular directories.
 - [**DreamScaler LED Controller**](https://github.com/tomasmark79/DreamScalerUsbLedStripController) — USB controller for RGBW strips with MIDI and Bitwig Studio support.
 
-## Demos and presentations
+## Development Demos
 
 - [**WebDotName**](https://webdotname.digitalspace.name) — graphical shader renderer demo.
-- [**GRemoteX**](https://gremotex.digitalspace.name) — presentation website for a non-open-source Garmin watch project.
 - [**Scales**](https://github.com/tomasmark79/scales) — interactive music scales with MIDI keyboard support [Open the web app](https://tomasmark79.github.io/scales/).
+
+## Products to Offer
+- [**GRemoteX**](https://gremotex.digitalspace.name) — presentation website for a non-open-source Garmin watch project.
 
 ...
 
