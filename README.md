@@ -12,6 +12,7 @@
 
 ## More projects
 
+- [**RoutePeek**](https://github.com/tomasmark79/routepeek) — Chrome extension that adds route minimaps, driving distances, and estimated travel times to website listings.
 - [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — C++20 project template. [C++ compiled for web is supported too](https://nixoncpp.digitalspace.name)
 - [**SafeData**](https://github.com/tomasmark79/safedata) — Universal backup script for LVM volumes and regular directories.
 - [**DreamScaler LED Controller**](https://github.com/tomasmark79/DreamScalerUsbLedStripController) — USB controller for RGBW strips with MIDI and Bitwig Studio support.
