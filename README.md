@@ -17,7 +17,7 @@
 - [**Scales**](https://github.com/tomasmark79/scales) — interactive music scales with MIDI keyboard support [Open the web app](https://tomasmark79.github.io/scales/).
 
 ## Products to Offer
-- [**GRemoteX**](https://gremotex.digitalspace.name) — presentation website for a non-open-source Garmin watch project.
+- [**GRemoteX**](https://gremotex.digitalspace.name) — Want to control your garage door from your Garmin watch? GRemoteX is for you.
 
 ...
 
