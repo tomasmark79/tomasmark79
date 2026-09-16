@@ -3,6 +3,7 @@
 ## Products to Offer
 - [**GRemoteX**](https://gremotex.digitalspace.name) — Want to control your garage door from your Garmin watch? GRemoteX is for you.
 - [**DreamScalerProduct**](https://tomasmark79.github.io/DreamScaleProduct/) - See your music in a new light.
+- [**QuoteGlass**](https://play.google.com/store/apps/details?id=name.digitalspace.quoteglass&pcampaignid=web_share) - Another android quote widget.
 
 ## GNOME Shell extensions
 
