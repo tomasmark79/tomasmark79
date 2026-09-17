@@ -1,8 +1,12 @@
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
 
-## Products for sale
+## Hardware for sale
+- [**DreamScaler**](https://tomasmark79.github.io/DreamScalerWeb/) - DreamScaler brings music scales, harmony and color to your keys with a standalone app and an LED strip.
+
+## Solution for sale
 - [**GRemoteX**](https://gremotex.digitalspace.name) — Want to control your garage door from your Garmin watch? GRemoteX is for you.
-- [**DreamScaler**](https://tomasmark79.github.io/DreamScalerWeb/) - See your music in a new light.
+
+## Apps for sale
 - [**QuoteGlass**](https://play.google.com/store/apps/details?id=name.digitalspace.quoteglass&pcampaignid=web_share) - Quotes on your home screen. A transparent, customizable Android widget.
 
 ## GNOME Shell extensions
