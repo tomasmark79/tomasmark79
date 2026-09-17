@@ -1,6 +1,6 @@
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
 
-## Products to Offer
+## Products for sale
 - [**GRemoteX**](https://gremotex.digitalspace.name) — Want to control your garage door from your Garmin watch? GRemoteX is for you.
 - [**DreamScaler**](https://tomasmark79.github.io/DreamScaleWeb/) - See your music in a new light.
 - [**QuoteGlass**](https://play.google.com/store/apps/details?id=name.digitalspace.quoteglass&pcampaignid=web_share) - Quotes on your home screen. A transparent, customizable Android widget.
