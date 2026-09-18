@@ -3,7 +3,7 @@
 ## Hardware for sale
 - [**DreamScaler**](https://tomasmark79.github.io/DreamScalerWeb/) - DreamScaler brings music scales, harmony and color to your keys with a standalone app and an LED strip.
 
-## Solution for sale
+## Deployment Solution for sale
 - [**GRemoteX**](https://gremotex.digitalspace.name) — Want to control your garage door from your Garmin watch? GRemoteX is for you.
 
 ## Apps for sale
