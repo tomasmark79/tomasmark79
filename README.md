@@ -1,7 +1,7 @@
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
 
 ## ⚗️ Developepment tools
-- [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://nixoncpp.digitalspace.name)
+- [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp/)
 
 ## ⚗️ GNOME Shell extensions
 - [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back.
