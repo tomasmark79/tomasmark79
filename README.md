@@ -1,5 +1,8 @@
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
 
+## ⚗️ Services
+- [**It works. For now.**](https://www.zatimjede.cz/) — Linux server audits, documentation, and recovery planning — understand what keeps your server running and how to rebuild it.
+
 ## ⚗️ Developepment tools
 - [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp/)
 
