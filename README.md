@@ -4,7 +4,7 @@
 - [**It works. For now.**](https://www.zatimjede.cz/) — Linux server audits, documentation, and recovery planning — understand what keeps your server running and how to rebuild it.
 
 ## ⚗️ Developepment tools
-- [**Awesome Midnight Commander**](https://github.com/tomasmark79/mc) - Modified Midnight Commander fork with trash actions, Wayland clipboard support, DotName skins, and a Nix package.
+- [**Modern Midnight Commander**](https://github.com/tomasmark79/mc) — Modern Midnight Commander with trash actions, Wayland clipboard support, 256-color DotName skins, and a Nix package.
 - [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp)
 
 ## ⚗️ GNOME Shell extensions
