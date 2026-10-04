@@ -17,7 +17,7 @@
 - [**DreamScaler**](https://tomasmark79.github.io/DreamScalerWeb) — DreamScaler brings music scales, harmony and color to your keys with a standalone app and an LED strip.
   
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomasmark79/snk/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tomasmark79/snk/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation of my GitHub contributions" src="https://raw.githubusercontent.com/tomasmark79/snk/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation of my GitHub contributions" src="https://raw.githubusercontent.com/tomasmark79/tomasmark79/output/github-contribution-grid-snake.svg" />
 </picture>
