@@ -21,12 +21,8 @@
 
 - [**MassCode2MdFree**](https://github.com/tomasmark79/MassCode2MdFree) — export a MassCode snippet database to Markdown files with a standalone C++17 command-line tool that preserves the folder hierarchy.
 
-## 📐 Templates
+## 📐 Development Templates
 - [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp)
-
-## 📚 Tutorials
-
-- [**DevOps: from source code to operations**](https://github.com/tomasmark79/tutor01) — a practical Czech tutorial covering local infrastructure, CI/CD, Kubernetes, monitoring, and recovery with Terraform and Ansible.
 
 ## 🎹 Music producing hardware & software
 - [**DreamScaler**](https://tomasmark79.github.io/DreamScalerWeb) — DreamScaler brings music scales, harmony and color to your keys with a standalone app and an LED strip.
