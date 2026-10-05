@@ -33,16 +33,16 @@ jobs:
           sudo apt-get install -y pandoc fonts-dejavu-core fonts-noto-color-emoji
           google-chrome --version
 
-      - name: Generate README.pdf
+      - name: Generate cv/README.pdf
         run: bash .github/scripts/readme-pdf.sh
 
-      - name: Commit README.pdf
+      - name: Commit cv/README.pdf
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- README.pdf
+          git add -- cv/README.pdf
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'docs: regenerate README.pdf'
+          git commit -m 'docs: regenerate cv/README.pdf'
           git push origin HEAD:main

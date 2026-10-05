@@ -15,4 +15,5 @@ pandoc README.md --from=gfm --to=html5 --standalone \
   --print-to-pdf="$build_dir/README.pdf" "file://$build_dir/README.html"
 
 test -s "$build_dir/README.pdf"
-cp "$build_dir/README.pdf" README.pdf
+mkdir -p cv
+cp "$build_dir/README.pdf" cv/README.pdf
