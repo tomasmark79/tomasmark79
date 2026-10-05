@@ -1,10 +1,10 @@
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
 
 ## 🧩 GNOME Shell extensions
-- [**Keyboard Informer**](https://github.com/tomasmark79/kbd-informer) [5602 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/) — show modifier and lock-key states in GNOME Shell.
-- [**Blur Wallpaper**](https://github.com/tomasmark79/blur-wallpaper) [913 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/) — create a smooth, adjustable blurred wallpaper.
-- [**My Vision**](https://github.com/tomasmark79/my-vision) [361 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
-- [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [85 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
+- [**Keyboard Informer**](https://github.com/tomasmark79/kbd-informer) [5612 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/) — show modifier and lock-key states in GNOME Shell.
+- [**Blur Wallpaper**](https://github.com/tomasmark79/blur-wallpaper) [919 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/) — create a smooth, adjustable blurred wallpaper.
+- [**My Vision**](https://github.com/tomasmark79/my-vision) [362 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
+- [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [86 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
 
 ## 🛠️ Administration tools
 - [**SafeData**](https://github.com/tomasmark79/safedata) — Universal backup script for LVM volumes and regular directories. It supports rsync and tar backups with include, exclude, or all filtering rules while preserving extended filesystem metadata.
