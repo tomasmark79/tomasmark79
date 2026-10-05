@@ -1,5 +1,3 @@
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal)](https://paypal.me/TomasMark)
-
 ## 🧩 GNOME Shell extensions
 - [**Keyboard Informer**](https://github.com/tomasmark79/kbd-informer) [5612 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/) — show modifier and lock-key states in GNOME Shell.
 - [**Blur Wallpaper**](https://github.com/tomasmark79/blur-wallpaper) [919 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/) — create a smooth, adjustable blurred wallpaper.
