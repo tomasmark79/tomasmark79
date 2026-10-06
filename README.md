@@ -4,28 +4,20 @@
 - [**My Vision**](https://github.com/tomasmark79/my-vision) [363 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
 - [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [88 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
 
-## 🌐 Browser extensions
-
-- [**RoutePeek**](https://github.com/tomasmark79/routepeek) — display route minimaps, driving distances, and travel times next to website listings using configurable templates.
-- [**DiMeTrans**](https://github.com/tomasmark79/DiscordTranslatorExtension) — translate Discord messages into Czech.
-- [**CzEn Composer**](https://github.com/tomasmark79/CzEnComposer) — translate selected Czech text into English.
-
-## ⌨️ Desktop utilities
-
-- [**Czenglish**](https://github.com/tomasmark79/czenglish) — type Czech while keeping familiar US punctuation and symbol positions with a keyboard layout for Linux and Windows.
-
 ## 🛠️ Administration tools
 - [**SafeData**](https://github.com/tomasmark79/safedata) — Universal backup script for LVM volumes and regular directories. It supports rsync and tar backups with include, exclude, or all filtering rules while preserving extended filesystem metadata.
 - [**Modern Midnight Commander**](https://github.com/tomasmark79/mc) — Modern Midnight Commander with trash actions, Wayland clipboard support, 256-color DotName skins, and a Nix package.
 
-## 💻 Development tools
-
-- [**MassCode2MdFree**](https://github.com/tomasmark79/MassCode2MdFree) — export a MassCode snippet database to Markdown files with a standalone C++17 command-line tool that preserves the folder hierarchy.
-
-## 📐 Development Templates
+## 💻 Development tools and 📐 Templates
 - [**NixonCpp**](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp)
 
 ## 🎹 Music producing hardware & software
 - [**DreamScaler**](https://tomasmark79.github.io/DreamScalerWeb) — DreamScaler brings music scales, harmony and color to your keys with a standalone app and an LED strip.
 - [**Bitwig Cheatsheet**](https://github.com/tomasmark79/bitwig-cheatsheet) — find Bitwig Studio keyboard shortcuts for Windows, Linux, and macOS mapped to a standard ISO/QWERTY keyboard layout.
 - [**Bitwig Transport Control Script**](https://github.com/tomasmark79/bitwig-transport-control-script) — control Bitwig Studio transport with mouse side buttons, even when a plugin window has focus, on Linux with X11.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
