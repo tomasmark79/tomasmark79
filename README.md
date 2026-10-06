@@ -17,7 +17,7 @@
 - [**Bitwig Transport Control Script**](https://github.com/tomasmark79/bitwig-transport-control-script) — control Bitwig Studio transport with mouse side buttons, even when a plugin window has focus, on Linux with X11.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated snake eating my GitHub contributions" src="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake.svg" />
 </picture>
