@@ -6,9 +6,9 @@
 
 <!-- readme-pdf:exclude:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake-dark.svg?v=nixos-20" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake.svg?v=nixos-20" />
-  <img alt="Animated snake eating my GitHub contributions" src="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake.svg?v=nixos-20" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake-dark.svg?v=nixos-20-head2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake.svg?v=nixos-20-head2" />
+  <img alt="Animated snake eating my GitHub contributions" src="https://raw.githubusercontent.com/tomasmark79/tomasmark79/refs/heads/output/github-contribution-grid-snake.svg?v=nixos-20-head2" />
 </picture>
 <!-- readme-pdf:exclude:end -->
 
