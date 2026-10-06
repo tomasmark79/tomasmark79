@@ -7,7 +7,7 @@
 ## 🌐 Browser extensions
 
 - [**RoutePeek**](https://github.com/tomasmark79/routepeek) — display route minimaps, driving distances, and travel times next to website listings using configurable templates.
-- [**DiMeTrans**](https://github.com/tomasmark79/DiscordTranslatorExtension) — translate Discord messages into Czech in Chrome using your own LibreTranslate endpoint.
+- [**DiMeTrans**](https://github.com/tomasmark79/DiscordTranslatorExtension) — translate Discord messages into Czech with local Ollama, live updates, and a toggle for the original text.
 
 ## ⌨️ Desktop utilities
 
