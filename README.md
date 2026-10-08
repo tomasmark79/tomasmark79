@@ -9,7 +9,7 @@
 - [**WebTranslatePlace**](https://github.com/tomasmark79/WebTranslatePlace) — translates selected text through your own local translation API and optionally replaces the selection with the result. It also translates Discord messages in Chrome/Chromium, Firefox, Safari, and GNOME Web.
 
 ## ⚗️ Servers
-- [**translation-api**](https://github.com/tomasmark79/translation-api) — a self-hosted translation server for the WebTranslatePlace browser extension and the TranslatePlace GNOME Shell extension.
+- [**translation-api**](https://github.com/tomasmark79/translation-api) — a self-hosted translation server for the [WebTranslatePlace](https://github.com/tomasmark79/WebTranslatePlace) browser extension and the [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) GNOME Shell extension.
 
 ## 🛠️ Administration tools
 - [**SafeData**](https://github.com/tomasmark79/safedata) — Universal backup script for LVM volumes and regular directories. It supports rsync and tar backups with include, exclude, or all filtering rules while preserving extended filesystem metadata.
