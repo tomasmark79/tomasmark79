@@ -1,8 +1,8 @@
 ## 🧩 GNOME Shell extensions
-- [**Keyboard Informer**](https://github.com/tomasmark79/kbd-informer) [5631 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/) — show modifier and lock-key states in GNOME Shell.
-- [**Blur Wallpaper**](https://github.com/tomasmark79/blur-wallpaper) [927 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/) — create a smooth, adjustable blurred wallpaper.
-- [**My Vision**](https://github.com/tomasmark79/my-vision) [366 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
-- [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [93 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
+- [**Keyboard Informer**](https://github.com/tomasmark79/kbd-informer) [5643 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/) — show modifier and lock-key states in GNOME Shell.
+- [**Blur Wallpaper**](https://github.com/tomasmark79/blur-wallpaper) [935 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/) — create a smooth, adjustable blurred wallpaper.
+- [**My Vision**](https://github.com/tomasmark79/my-vision) [368 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
+- [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [94 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
 - [**TranslatePlace**](https://github.com/tomasmark79/TranslatePlace) - translates selected text through your own local translation API and optionally pastes the result over the selection.  
 <!-- readme-pdf:exclude:start -->
 <picture>
