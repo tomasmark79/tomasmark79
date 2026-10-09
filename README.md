@@ -6,7 +6,7 @@
 
 ## 🇨🇿 Translation Bundle
 - [**TranslatePlace**](https://github.com/tomasmark79/TranslatePlace) — 🧩 GNOME Shell extension translates selected text through your own local [**translation-api**](https://github.com/tomasmark79/translation-api) and optionally replaces the selection with the result.
-- [**WebTranslatePlace**](https://github.com/tomasmark79/WebTranslatePlace) — 🌐 WEB extensions translates selected text through your own local [**translation-api**](https://github.com/tomasmark79/translation-api) and optionally replaces the selection with the result. It also translates Discord messages in Chrome/Chromium, Firefox, Safari, and GNOME Web.
+- [**WebTranslatePlace**](https://github.com/tomasmark79/WebTranslatePlace) — 🌐 WEB extensions translates selected text through your own local [**translation-api**](https://github.com/tomasmark79/translation-api) and optionally replaces the selection with the result. It also translates **Discord** messages in **Chrome/Chromium**, **Firefox**, **Safari**, and **GNOME Web**.
 - [**translation-api**](https://github.com/tomasmark79/translation-api) — 💎 a self-hosted **translation server** for the [WebTranslatePlace](https://github.com/tomasmark79/WebTranslatePlace) and the [TranslatePlace](https://github.com/tomasmark79/TranslatePlace).
 
 ## 🛠️ Administration tools
