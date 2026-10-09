@@ -4,7 +4,9 @@
 - [**My Vision**](https://github.com/tomasmark79/my-vision) [368 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
 - [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [94 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
 
-## 🇨🇿 Translation Bundle
+## Translation Bundle  
+🇨🇿 🇪🇬 🇸🇦 🇧🇬 🇮🇳 🇪🇸 🇩🇰 🇩🇪 🇬🇷 🇲🇽 🇪🇪 🇮🇷 🇫🇮 🇵🇭 🇨🇦 🇫🇷 🇮🇳 🇮🇱 🇮🇳 🇭🇷 🇭🇺 🇮🇩 🇮🇸 🇮🇹 🇯🇵 🇮🇳 🇰🇷 🇱🇹 🇱🇻 🇮🇳 🇮🇳 🇳🇱 🇳🇴 🇮🇳 🇵🇱 🇧🇷 🇵🇹 🇷🇴 🇷🇺 🇸🇰 🇸🇮 🇷🇸 🇸🇪 🇰🇪 🇹🇿 🇮🇳 🇮🇳 🇹🇭 🇹🇷 🇺🇦 🇵🇰 🇻🇳 🇨🇳 🇹🇼 🇿🇦
+
 - [**TranslatePlace**](https://github.com/tomasmark79/TranslatePlace) — 🧩 GNOME Shell extension translates selected text through your own local [**translation-api**](https://github.com/tomasmark79/translation-api) and optionally replaces the selection with the result.
 - [**WebTranslatePlace**](https://github.com/tomasmark79/WebTranslatePlace) — 🌐 WEB extensions translates selected text through your own local [**translation-api**](https://github.com/tomasmark79/translation-api) and optionally replaces the selection with the result. It also translates **Discord** messages in **Chrome/Chromium**, **Firefox**, **Safari**, and **GNOME Web**.
 - [**translation-api**](https://github.com/tomasmark79/translation-api) — 💎 a self-hosted **translation server** for the [WebTranslatePlace](https://github.com/tomasmark79/WebTranslatePlace) and the [TranslatePlace](https://github.com/tomasmark79/TranslatePlace).
