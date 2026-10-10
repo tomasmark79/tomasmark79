@@ -4,12 +4,15 @@
 - [**My Vision**](https://github.com/tomasmark79/my-vision) [368 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
 - [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [97 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
 
-## 🔄 Translation bundle powered by our AI-based Translation-API
-- [**Translation-API**](https://github.com/tomasmark79/translation-api) is a lightweight translation server you can host anywhere.
-- **GNOME Shell extension** [**TranslatePlace**](https://github.com/tomasmark79/TranslatePlace)
-- **Browser extensions** [**WebTranslatePlace**](https://github.com/tomasmark79/WebTranslatePlace) (Chrome/Chromium, Firefox, Thunderbird, Safari, and GNOME Web)
+## 🔄 Translation Bundle
 
-All of these extensions can translate user-selected text and replace it with the desired translation, making translation intuitive and avoiding unnecessary extra steps. Supported environments include the GNOME Shell desktop, web browsers, and email clients such as Thunderbird.
+Translate selected text with your own AI translation server. Start with the server, then choose the extension for your desktop, browser or email client:
+
+- [**Translation API**](https://github.com/tomasmark79/translation-api) — the shared server, using Ollama and `translategemma:4b` by default. Its README covers installing Ollama, downloading the model and starting the API on your computer.
+- [**TranslatePlace**](https://github.com/tomasmark79/TranslatePlace) — a GNOME Shell extension with two target languages, configurable shortcuts, local history and optional automatic replacement of selected text.
+- [**WebTranslatePlace**](https://github.com/tomasmark79/WebTranslatePlace) — translate selected drafts in Chrome/Chromium and Firefox, or selected email text in Thunderbird. Replace selections while composing; view translations separately while reading email. Includes draft history, two target languages and additional Discord message translation.
+
+Both extensions connect to Translation API at `http://127.0.0.1:5001` by default. Follow the chosen extension's README for installation. WebTranslatePlace also has Safari and GNOME Web targets; Safari requires live verification, and GNOME Web is experimental with known failures.
 
 ## 🛠️ Administration tools
 - [**Modern Midnight Commander**](https://github.com/tomasmark79/mc) — a fork with trash actions, Wayland clipboard support, DotName skins, and ultra-fast ZIP extraction, packaged with Nix.
