@@ -4,6 +4,14 @@
 - [**My Vision**](https://github.com/tomasmark79/my-vision) [376 Downloads](https://extensions.gnome.org/extension/9014/my-vision/) — save and quickly switch between display profiles.
 - [**Window Shuffle**](https://github.com/tomasmark79/window-shuffle) [113 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/) — distribute windows across workspaces and collect them back.
 
+## 🖥️ NixBerry
+
+**One recipe. Multiple machines. Reproducible NixOS servers.**
+
+[NixBerry](https://github.com/tomasmark79/nixberry) lets you build and manage servers from declarative configuration. Keep the system in a shared recipe, then define each machine's configuration, platform, network and resources — making it easier to recreate a server or add another machine.
+
+**Platforms:** QEMU/KVM (libvirt) · Hyper-V · Proxmox VE · VirtualBox · VMware Workstation · Raspberry Pi 5.
+
 ## 🔄 Translation Bundle
 
 Translate selected text with your own AI translation server. Start with the server, then choose the extension for your desktop, browser or email client:
