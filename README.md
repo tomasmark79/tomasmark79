@@ -32,7 +32,7 @@ Translate selected text with your own AI translation server. Start with the serv
 
 Both extensions connect to Translation API at `http://127.0.0.1:5001` by default. Follow the chosen extension's README for installation. WebTranslatePlace also has Safari and GNOME Web targets; Safari requires live verification, and GNOME Web is experimental with known failures.
 
-## <picture><img src="assets/icons/terminal.svg" width="32" height="32" alt="" align="absmiddle" /></picture> Administration tools
+## <picture><img src="assets/icons/terminal.svg" width="32" height="32" alt="" align="absmiddle" /></picture> Filesystem tools
 - [Modern Midnight Commander](https://github.com/tomasmark79/mc) — a fork with trash actions, Wayland clipboard support, DotName skins, and ultra-fast ZIP extraction, packaged with Nix.
 
 ## <picture><img src="assets/icons/hard-drive-download.svg" width="32" height="32" alt="" align="absmiddle" /></picture> Backup tools
