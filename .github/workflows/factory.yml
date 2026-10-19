@@ -1,0 +1,60 @@
+name: Update package workshop
+
+on:
+  schedule:
+    - cron: "37 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/factory.yml
+      - scripts/factory/**
+      - assets/icons/nixos.svg
+
+permissions:
+  contents: write
+
+concurrency:
+  group: package-workshop
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Test activity collection and idle state
+        run: python3 -m unittest discover -s scripts/factory -p 'test_*.py' -v
+
+      - name: Collect the last 30 days of public activity
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FACTORY_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/factory/fetch_activity.py --owner "$FACTORY_OWNER" --output assets/factory/activity.json
+
+      - name: Generate light and dark illustrations
+        run: python3 scripts/factory/generate.py
+
+      - name: Publish changed factory assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/factory
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'docs: refresh package workshop'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1

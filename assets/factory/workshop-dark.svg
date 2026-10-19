@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="workshop-title workshop-desc">
+<title id="workshop-title">The package workshop</title>
+<desc id="workshop-desc">5 active public projects send packages to a NixOS snowflake assembler. Traffic reflects indexed authored commits from 2026-09-20 through 2026-10-19. Assembly is illustrative and does not represent CI results.</desc>
+<defs>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="var(--tone-3)"/></pattern>
+ <pattern id="rollers" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M4 0v18" stroke="#9caab8" stroke-width="2"/></pattern>
+ <linearGradient id="metal" x2="0" y2="1"><stop stop-color="var(--metal-top)"/><stop offset="1" stop-color="var(--tone-4)"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="var(--tone-5)"/><stop offset="1" stop-color="var(--tone-6)"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#08121c" flood-opacity=".09"/></filter>
+ <g id="parcel"><path d="M-10-7 0-12 10-7 10 6 0 12-10 6Z" fill="currentColor" stroke="var(--tone-0)" stroke-width="1.3" stroke-linejoin="round"/><path d="m-10-7 10 6 10-6M0-1v13M-5-10 5-4v5" fill="none" stroke="var(--tone-0)" stroke-width="1.1"/><path d="m-7 3 3 2" stroke="#fff" stroke-width="1.3"/></g>
+ <g id="gear"><path d="M-4-15h8l1 5 4 2 5-2 4 7-4 3v4l4 3-4 7-5-2-4 2-1 5h-8l-1-5-4-2-5 2-4-7 4-3v-4l-4-3 4-7 5 2 4-2Z" fill="var(--tone-30)" stroke="var(--tone-29)" stroke-width="1.4"/><circle r="6" fill="var(--tone-31)" stroke="var(--tone-29)" stroke-width="1.4"/></g>
+</defs>
+<style>
+ text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:var(--tone-0)}
+ .mono{font-family:ui-monospace,"DejaVu Sans Mono",monospace}
+ .muted{fill:var(--tone-1)}.tiny{font-size:10px;letter-spacing:1.6px;font-weight:650}
+ .cog{animation:turn 8s linear infinite;transform-box:fill-box;transform-origin:center}
+ .roller{animation:roll .8s linear infinite}
+ .lamp{animation:blink 1.7s ease-in-out infinite}
+ .press{animation:press 2.4s ease-in-out infinite}
+ .completed{animation:complete 18s linear infinite;opacity:0}
+ .working{animation:working 18s linear infinite}
+ @keyframes turn{to{transform:rotate(360deg)}}
+ @keyframes roll{to{stroke-dashoffset:-18}}
+ @keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}
+ @keyframes press{0%,30%,75%,100%{transform:translateY(0)}50%,60%{transform:translateY(6px)}}
+ @keyframes complete{0%,76%{opacity:0}79%,94%{opacity:1}100%{opacity:0}}
+ @keyframes working{0%,76%{opacity:1}79%,94%{opacity:0}100%{opacity:1}}
+ @media(prefers-reduced-motion:reduce){*{animation:none!important}animateMotion{display:none}.flake{opacity:1!important}.completed{opacity:1}.working{opacity:0}.moving{display:none}}
+</style>
+<rect width="1120" height="640" rx="20" fill="var(--tone-2)"/>
+<rect x="24" y="120" width="1072" height="450" rx="16" fill="url(#grid)"/>
+<text x="48" y="43" class="tiny muted">TOMASMARK79 / OPEN SOURCE, IN MOTION</text>
+<text x="48" y="87" font-size="34" font-weight="750" letter-spacing="-1.2">The package workshop<tspan fill="#5277c3">.</tspan></text>
+<rect x="865" y="40" width="207" height="30" rx="15" fill="var(--tone-7)"/>
+<circle cx="883" cy="55" r="3" fill="#5277c3"/>
+<text x="895" y="59" font-size="11" class="mono">20 SEP — 19 OCT 2026</text>
+<text x="48" y="156" class="tiny muted">A MONTH OF WORK, MADE TANGIBLE</text>
+<text x="48" y="191" font-size="18" font-weight="550">Commits in. Packages out.</text>
+<text x="48" y="217" font-size="13" class="muted">Five projects keep the workshop moving.</text>
+<text x="48" y="237" font-size="13" class="muted">One snowflake, assembled piece by piece.</text>
+<text x="49" y="287" font-size="30" font-weight="700">98<tspan dx="10" font-size="12" font-weight="400" class="muted">authored commits</tspan></text>
+<path d="M250 260v35" stroke="var(--tone-8)"/>
+<text x="273" y="287" font-size="30" font-weight="700">05<tspan dx="10" font-size="12" font-weight="400" class="muted">active projects</tspan></text>
+<!-- The delivery belt turns up and back into the assembly chamber. -->
+<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="var(--tone-9)" stroke-width="30"/>
+<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="var(--tone-10)" stroke-width="24"/>
+<path class="roller" d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="var(--tone-11)" stroke-width="19" stroke-dasharray="2 16"/>
+<circle cx="78" cy="350" r="13" fill="var(--tone-12)" stroke="var(--tone-13)"/><circle cx="78" cy="350" r="4" fill="var(--tone-14)"/>
+<path d="M88 371v11m280-11v11m280-11v11m280-11v11" stroke="var(--tone-15)" stroke-width="5"/>
+<!-- Assembly chamber and service robot. -->
+<path d="M598 294h93" stroke="var(--tone-16)" stroke-width="7" stroke-linecap="round"/>
+<rect x="603" y="279" width="67" height="23" rx="4" fill="var(--tone-17)" stroke="var(--tone-18)"/>
+<path d="M636 278v-45l45-34 38 22" fill="none" stroke="var(--tone-19)" stroke-width="12" stroke-linejoin="round"/>
+<path d="M636 273v-40l45-34 38 22" fill="none" stroke="var(--tone-20)" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="636" cy="233" r="8" fill="#f0ba68" stroke="var(--tone-19)" stroke-width="2"/>
+<circle cx="681" cy="199" r="8" fill="#f0ba68" stroke="var(--tone-19)" stroke-width="2"/>
+<path class="press" d="m712 215 8 6-5 13m5-13 13-1" fill="none" stroke="var(--tone-19)" stroke-width="4" stroke-linecap="round"/>
+<g filter="url(#shadow)"><rect x="739" y="128" width="228" height="187" rx="14" fill="url(#metal)" stroke="var(--tone-21)" stroke-width="1.5"/></g>
+<rect x="751" y="139" width="204" height="160" rx="9" fill="url(#glass)" stroke="var(--tone-22)"/>
+<path d="M762 149h24m-24 0v24m182-24h-24m24 0v24m-182 113h24m-24 0v-24m182 24h-24m24 0v-24" fill="none" stroke="var(--tone-23)"/>
+<path d="m766 147 174 143" stroke="#fff" stroke-width="16" style="opacity:var(--glass-reflection)"/>
+<text x="852" y="119" text-anchor="middle" class="tiny muted">NIXOS ASSEMBLER</text>
+
+<style>@keyframes piece0{0%,18%{opacity:.09;transform:translateY(-3px)}22%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
+<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M7.352 1.592l-1.364.002L5.32 2.75l1.557 2.713-3.137-.008-1.32 2.34H14.11l-1.353-2.332-3.192-.006-2.214-3.865z" fill="#7eb4dd" style="animation:piece0 18s ease-in-out infinite"/></g>
+<style>@keyframes piece1{0%,28%{opacity:.09;transform:translateY(-3px)}32%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
+<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M13.527 1.592l-2.687.025 5.846 10.127 1.341-2.34-1.59-2.765 2.24-3.85-.683-1.182h-1.336l-1.57 2.705-1.56-2.72z" fill="#5277c3" style="animation:piece1 18s ease-in-out infinite"/></g>
+<style>@keyframes piece2{0%,38%{opacity:.09;transform:translateY(-3px)}42%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
+<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M20.414 5.787l-5.846 10.125 2.696-.008 1.601-2.76 4.453.016.682-1.183-.666-1.157-3.13-.008L21.778 8.1l-1.365-2.313z" fill="#7eb4dd" style="animation:piece2 18s ease-in-out infinite"/></g>
+<style>@keyframes piece3{0%,48%{opacity:.09;transform:translateY(-3px)}52%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
+<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M9.432 8.086l-2.696.008-1.601 2.76-4.453-.016L0 12.02l.666 1.157 3.13.008-1.575 2.71 1.365 2.315L9.432 8.086z" fill="#5277c3" style="animation:piece3 18s ease-in-out infinite"/></g>
+<style>@keyframes piece4{0%,58%{opacity:.09;transform:translateY(-3px)}62%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
+<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M7.33 12.25l-.006.01-.002-.004-1.342 2.34 1.59 2.765-2.24 3.85.684 1.182H7.35l.004-.006h.001l1.567-2.698 1.558 2.72 2.688-.026-.004-.006h.01L7.33 12.25z" fill="#7eb4dd" style="animation:piece4 18s ease-in-out infinite"/></g>
+<style>@keyframes piece5{0%,68%{opacity:.09;transform:translateY(-3px)}72%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
+<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M9.88 16.18l1.354 2.332 3.192.006 2.215 3.865 1.363-.002.668-1.156-1.557-2.713 3.137.008 1.32-2.34H9.881z" fill="#5277c3" style="animation:piece5 18s ease-in-out infinite"/></g>
+<rect x="780" y="303" width="146" height="23" rx="5" fill="#203648"/>
+<g class="working"><circle cx="793" cy="315" r="3" fill="#f0ba68" class="lamp"/><text x="806" y="318" fill="#fff" style="fill:#fff" font-size="9" class="mono">assembling flake…</text></g>
+<g class="completed"><circle cx="793" cy="315" r="3" fill="#80cbc4"/><text x="806" y="318" style="fill:#fff" font-size="9" class="mono">snowflake complete</text></g>
+
+<!-- translation-api: 26 indexed authored commits. -->
+<a href="https://github.com/tomasmark79/translation-api">
+<path d="M129 424v-62" stroke="var(--tone-24)" stroke-width="22"/>
+<path d="M129 424v-62" stroke="var(--tone-25)" stroke-width="16"/>
+<path class="roller" d="M129 424v-62" stroke="var(--tone-26)" stroke-width="12" stroke-dasharray="2 16"/>
+<ellipse cx="129" cy="514" rx="82" ry="7" fill="#203648" opacity=".07"/>
+<path d="M67 487v24m122-24v24" stroke="var(--tone-27)" stroke-width="7"/>
+<rect x="51" y="422" width="157" height="77" rx="9" fill="url(#metal)" stroke="var(--tone-28)" stroke-width="1.5"/>
+<path d="M59 422v-28q0-8 8-8h125q8 0 8 8v28" fill="#80cbc4" stroke="var(--tone-27)" stroke-width="1.5"/>
+<rect x="102" y="391" width="55" height="41" rx="4" fill="#263f52"/>
+<path class="press" d="M109 393h41v10h-41z" fill="#90a6b7"/>
+<path d="M106 425h47" stroke="#e3edf3" stroke-width="3"/>
+<circle cx="71" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:1.93s"/>
+<circle cx="188" cy="405" r="3" fill="#203648" opacity=".5"/>
+<rect x="63" y="440" width="78" height="39" rx="4" fill="#203648"/>
+<text x="72" y="455" class="mono" font-size="9" style="fill:#80cbc4">repo_01</text>
+<text x="72" y="470" class="mono" font-size="9" style="fill:#e8eff5">working<tspan class="lamp">...</tspan></text>
+<g transform="translate(172 459)"><use href="#gear" class="cog" style="animation-duration:5.80s"/></g>
+<path d="M63 489h133" stroke="var(--tone-32)"/>
+<text x="129" y="543" text-anchor="middle" font-size="12.00" font-weight="650">translation-api</text>
+<text x="129" y="564" text-anchor="middle" font-size="11" class="mono muted">26 commits</text>
+</a>
+<g class="moving" color="#80cbc4"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-12.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-12.54060181s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#80cbc4"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-7.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-7.54060181s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#80cbc4"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-4.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-4.54060181s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#80cbc4"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-0.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-0.54060181s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#80cbc4"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-13.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-13.54060181s" repeatCount="indefinite"/>
+</g></g>
+<!-- DreamScalerWeb: 20 indexed authored commits. -->
+<a href="https://github.com/tomasmark79/DreamScalerWeb">
+<path d="M323 424v-62" stroke="var(--tone-24)" stroke-width="22"/>
+<path d="M323 424v-62" stroke="var(--tone-25)" stroke-width="16"/>
+<path class="roller" d="M323 424v-62" stroke="var(--tone-26)" stroke-width="12" stroke-dasharray="2 16"/>
+<ellipse cx="323" cy="514" rx="82" ry="7" fill="#203648" opacity=".07"/>
+<path d="M261 487v24m122-24v24" stroke="var(--tone-27)" stroke-width="7"/>
+<rect x="245" y="422" width="157" height="77" rx="9" fill="url(#metal)" stroke="var(--tone-28)" stroke-width="1.5"/>
+<path d="M253 422v-28q0-8 8-8h125q8 0 8 8v28" fill="#b6a0de" stroke="var(--tone-27)" stroke-width="1.5"/>
+<rect x="296" y="391" width="55" height="41" rx="4" fill="#263f52"/>
+<path class="press" d="M303 393h41v10h-41z" fill="#90a6b7"/>
+<path d="M300 425h47" stroke="#e3edf3" stroke-width="3"/>
+<circle cx="265" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:2.51s"/>
+<circle cx="382" cy="405" r="3" fill="#203648" opacity=".5"/>
+<rect x="257" y="440" width="78" height="39" rx="4" fill="#203648"/>
+<text x="266" y="455" class="mono" font-size="9" style="fill:#b6a0de">repo_02</text>
+<text x="266" y="470" class="mono" font-size="9" style="fill:#e8eff5">working<tspan class="lamp">...</tspan></text>
+<g transform="translate(366 459)"><use href="#gear" class="cog" style="animation-duration:7.54s"/></g>
+<path d="M257 489h133" stroke="var(--tone-32)"/>
+<text x="323" y="543" text-anchor="middle" font-size="12.00" font-weight="650">DreamScalerWeb</text>
+<text x="323" y="564" text-anchor="middle" font-size="11" class="mono muted">20 commits</text>
+</a>
+<g class="moving" color="#b6a0de"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-9.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-9.38504626s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#b6a0de"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-4.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-4.38504626s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#b6a0de"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-17.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-17.38504626s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#b6a0de"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-12.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-12.38504626s" repeatCount="indefinite"/>
+</g></g>
+<!-- WebTranslatePlace: 19 indexed authored commits. -->
+<a href="https://github.com/tomasmark79/WebTranslatePlace">
+<path d="M517 424v-62" stroke="var(--tone-24)" stroke-width="22"/>
+<path d="M517 424v-62" stroke="var(--tone-25)" stroke-width="16"/>
+<path class="roller" d="M517 424v-62" stroke="var(--tone-26)" stroke-width="12" stroke-dasharray="2 16"/>
+<ellipse cx="517" cy="514" rx="82" ry="7" fill="#203648" opacity=".07"/>
+<path d="M455 487v24m122-24v24" stroke="var(--tone-27)" stroke-width="7"/>
+<rect x="439" y="422" width="157" height="77" rx="9" fill="url(#metal)" stroke="var(--tone-28)" stroke-width="1.5"/>
+<path d="M447 422v-28q0-8 8-8h125q8 0 8 8v28" fill="#f0ba68" stroke="var(--tone-27)" stroke-width="1.5"/>
+<rect x="490" y="391" width="55" height="41" rx="4" fill="#263f52"/>
+<path class="press" d="M497 393h41v10h-41z" fill="#90a6b7"/>
+<path d="M494 425h47" stroke="#e3edf3" stroke-width="3"/>
+<circle cx="459" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:2.65s"/>
+<circle cx="576" cy="405" r="3" fill="#203648" opacity=".5"/>
+<rect x="451" y="440" width="78" height="39" rx="4" fill="#203648"/>
+<text x="460" y="455" class="mono" font-size="9" style="fill:#f0ba68">repo_03</text>
+<text x="460" y="470" class="mono" font-size="9" style="fill:#e8eff5">working<tspan class="lamp">...</tspan></text>
+<g transform="translate(560 459)"><use href="#gear" class="cog" style="animation-duration:7.94s"/></g>
+<path d="M451 489h133" stroke="var(--tone-32)"/>
+<text x="517" y="543" text-anchor="middle" font-size="12.00" font-weight="650">WebTranslatePlace</text>
+<text x="517" y="564" text-anchor="middle" font-size="11" class="mono muted">19 commits</text>
+</a>
+<g class="moving" color="#f0ba68"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-6.22949070s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.457193928;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.452193928;0.457193928;1" dur="18s" begin="-6.22949070s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#f0ba68"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-1.22949070s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.457193928;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.452193928;0.457193928;1" dur="18s" begin="-1.22949070s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#f0ba68"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-13.22949070s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.457193928;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.452193928;0.457193928;1" dur="18s" begin="-13.22949070s" repeatCount="indefinite"/>
+</g></g>
+<!-- TranslatePlace: 17 indexed authored commits. -->
+<a href="https://github.com/tomasmark79/TranslatePlace">
+<path d="M711 424v-62" stroke="var(--tone-24)" stroke-width="22"/>
+<path d="M711 424v-62" stroke="var(--tone-25)" stroke-width="16"/>
+<path class="roller" d="M711 424v-62" stroke="var(--tone-26)" stroke-width="12" stroke-dasharray="2 16"/>
+<ellipse cx="711" cy="514" rx="82" ry="7" fill="#203648" opacity=".07"/>
+<path d="M649 487v24m122-24v24" stroke="var(--tone-27)" stroke-width="7"/>
+<rect x="633" y="422" width="157" height="77" rx="9" fill="url(#metal)" stroke="var(--tone-28)" stroke-width="1.5"/>
+<path d="M641 422v-28q0-8 8-8h125q8 0 8 8v28" fill="#8ab9e9" stroke="var(--tone-27)" stroke-width="1.5"/>
+<rect x="684" y="391" width="55" height="41" rx="4" fill="#263f52"/>
+<path class="press" d="M691 393h41v10h-41z" fill="#90a6b7"/>
+<path d="M688 425h47" stroke="#e3edf3" stroke-width="3"/>
+<circle cx="653" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:2.96s"/>
+<circle cx="770" cy="405" r="3" fill="#203648" opacity=".5"/>
+<rect x="645" y="440" width="78" height="39" rx="4" fill="#203648"/>
+<text x="654" y="455" class="mono" font-size="9" style="fill:#8ab9e9">repo_04</text>
+<text x="654" y="470" class="mono" font-size="9" style="fill:#e8eff5">working<tspan class="lamp">...</tspan></text>
+<g transform="translate(754 459)"><use href="#gear" class="cog" style="animation-duration:8.87s"/></g>
+<path d="M645 489h133" stroke="var(--tone-32)"/>
+<text x="711" y="543" text-anchor="middle" font-size="12.00" font-weight="650">TranslatePlace</text>
+<text x="711" y="564" text-anchor="middle" font-size="11" class="mono muted">17 commits</text>
+</a>
+<g class="moving" color="#8ab9e9"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-3.07393514s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.337440841;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.332440841;0.337440841;1" dur="18s" begin="-3.07393514s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#8ab9e9"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-15.07393514s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.337440841;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.332440841;0.337440841;1" dur="18s" begin="-15.07393514s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#8ab9e9"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-10.07393514s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.337440841;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.332440841;0.337440841;1" dur="18s" begin="-10.07393514s" repeatCount="indefinite"/>
+</g></g>
+<!-- NixonCpp: 16 indexed authored commits. -->
+<a href="https://github.com/tomasmark79/NixonCpp">
+<path d="M905 424v-62" stroke="var(--tone-24)" stroke-width="22"/>
+<path d="M905 424v-62" stroke="var(--tone-25)" stroke-width="16"/>
+<path class="roller" d="M905 424v-62" stroke="var(--tone-26)" stroke-width="12" stroke-dasharray="2 16"/>
+<ellipse cx="905" cy="514" rx="82" ry="7" fill="#203648" opacity=".07"/>
+<path d="M843 487v24m122-24v24" stroke="var(--tone-27)" stroke-width="7"/>
+<rect x="827" y="422" width="157" height="77" rx="9" fill="url(#metal)" stroke="var(--tone-28)" stroke-width="1.5"/>
+<path d="M835 422v-28q0-8 8-8h125q8 0 8 8v28" fill="#e5948c" stroke="var(--tone-27)" stroke-width="1.5"/>
+<rect x="878" y="391" width="55" height="41" rx="4" fill="#263f52"/>
+<path class="press" d="M885 393h41v10h-41z" fill="#90a6b7"/>
+<path d="M882 425h47" stroke="#e3edf3" stroke-width="3"/>
+<circle cx="847" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:3.14s"/>
+<circle cx="964" cy="405" r="3" fill="#203648" opacity=".5"/>
+<rect x="839" y="440" width="78" height="39" rx="4" fill="#203648"/>
+<text x="848" y="455" class="mono" font-size="9" style="fill:#e5948c">repo_05</text>
+<text x="848" y="470" class="mono" font-size="9" style="fill:#e8eff5">working<tspan class="lamp">...</tspan></text>
+<g transform="translate(948 459)"><use href="#gear" class="cog" style="animation-duration:9.42s"/></g>
+<path d="M839 489h133" stroke="var(--tone-32)"/>
+<text x="905" y="543" text-anchor="middle" font-size="12.00" font-weight="650">NixonCpp</text>
+<text x="905" y="564" text-anchor="middle" font-size="11" class="mono muted">16 commits</text>
+</a>
+<g class="moving" color="#e5948c"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-17.91837959s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.217687755;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.212687755;0.217687755;1" dur="18s" begin="-17.91837959s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#e5948c"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-11.91837959s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.217687755;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.212687755;0.217687755;1" dur="18s" begin="-11.91837959s" repeatCount="indefinite"/>
+</g></g>
+<g class="moving" color="#e5948c"><g><use href="#parcel"/>
+<animateMotion dur="18s" begin="-6.91837959s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.217687755;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.212687755;0.217687755;1" dur="18s" begin="-6.91837959s" repeatCount="indefinite"/>
+</g></g>
+<path d="M48 589h1024" stroke="var(--tone-12)"/>
+<circle cx="52" cy="612" r="3" fill="#5277c3"/>
+<text x="64" y="616" font-size="11" class="muted">Public commit activity · illustrative assembly, not CI status</text>
+<text x="1072" y="616" text-anchor="end" font-size="11" class="mono muted">LAST 30 DAYS</text>
+<style>:root{--metal-top:#354d63;--glass-reflection:.055;--tone-0:#dbe8f3;--tone-1:#a0b5c7;--tone-2:#101b28;--tone-3:#2e4257;--tone-4:#293e52;--tone-5:#182f46;--tone-6:#203a53;--tone-7:#22384d;--tone-8:#3c536a;--tone-9:#4a6278;--tone-10:#23394d;--tone-11:#688298;--tone-12:#2e475d;--tone-13:#7892a6;--tone-14:#a0b7ca;--tone-15:#4e687e;--tone-16:#4a6378;--tone-17:#30495f;--tone-18:#728ba0;--tone-19:#9bb3c7;--tone-20:#536e86;--tone-21:#617e96;--tone-22:#3e607c;--tone-23:#486b89;--tone-24:#4a647b;--tone-25:#243b50;--tone-26:#6c879e;--tone-27:#728ea5;--tone-28:#68849c;--tone-29:#88a1b7;--tone-30:#4c6b85;--tone-31:#253c51;--tone-32:#48657e}</style></svg>

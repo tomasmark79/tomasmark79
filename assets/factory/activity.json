@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "owner": "tomasmark79",
+  "start": "2026-09-20",
+  "end": "2026-10-19",
+  "metric": "indexed authored commits in public owned repositories",
+  "total_commits": 120,
+  "repositories": [
+    {
+      "name": "translation-api",
+      "commits": 26
+    },
+    {
+      "name": "DreamScalerWeb",
+      "commits": 20
+    },
+    {
+      "name": "WebTranslatePlace",
+      "commits": 19
+    },
+    {
+      "name": "TranslatePlace",
+      "commits": 17
+    },
+    {
+      "name": "NixonCpp",
+      "commits": 16
+    }
+  ]
+}
