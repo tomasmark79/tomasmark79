@@ -8,7 +8,8 @@
 
 **One recipe. Multiple machines. Reproducible NixOS servers.**
 
- - [NixBerry](https://github.com/tomasmark79/nixberry) lets you build and manage servers from declarative configuration. Keep the system in a shared recipe, then define each machine's configuration, platform, network and resources — making it easier to recreate a server or add another machine. **Platforms:** QEMU/KVM (libvirt) · Hyper-V · Proxmox VE · VirtualBox · VMware Workstation · Raspberry Pi 5.
+ - [NixBerry](https://github.com/tomasmark79/nixberry) lets you build and manage servers from declarative configuration. Keep the system in a shared recipe, then define each machine's configuration, platform, network and resources — making it easier to recreate a server or add another machine. **Platforms:** QEMU/KVM (libvirt) · Hyper-V · Proxmox VE · VirtualBox · VMware Workstation · Raspberry Pi 5.  
+ [NixBerry Matrix Channel](https://matrix.to/#/#nixberry:matrix.org)
 
 **A starting point for command-line applications.**
 
