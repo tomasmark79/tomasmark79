@@ -31,3 +31,5 @@ README používá `<picture>` se samostatnými barevnými variantami. Samostatn�
 Balíčky mají jednotnou rychlost 100 jednotek/s, aby i nejdelší trasa po prodlouženém horním pásu doběhla během 18sekundového cyklu. Četnost určuje poměrové rozdělení 18 slotů za 18 sekund; příjezdy se plánují do společných slotů a odjezdy zpětně podle délky trasy. U velmi malého podílu aktivity může projekt získat nula slotů, i když zůstává uvedený s počtem commitů. Vyšší aktivita nemění rychlost balíčku, proto se na pásu nepředbíhá.
 
 Původní ručně připravený náhled je v `previews/package-workshop/`, archiv hada v `archive/contribution-snake/`. Workflow ani generátor tyto archivy nemění.
+
+Při doručení balíčku vstup assembleru krátce blikne barvou zdrojového projektu. Efekt používá stejné příjezdové sloty jako balíčky, včetně přechodu mezi cykly. Při neaktivitě ani s `prefers-reduced-motion` se nezobrazuje.

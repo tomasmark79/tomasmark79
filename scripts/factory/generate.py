@@ -82,7 +82,7 @@ parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" vi
  @keyframes press{0%,30%,75%,100%{transform:translateY(0)}50%,60%{transform:translateY(6px)}}
  @keyframes complete{0%,76%{opacity:0}79%,94%{opacity:1}100%{opacity:0}}
  @keyframes working{0%,76%{opacity:1}79%,94%{opacity:0}100%{opacity:1}}
- @media(prefers-reduced-motion:reduce){*{animation:none!important}animateMotion{display:none}.flake{opacity:1!important}.completed{opacity:1}.working{opacity:0}.moving{display:none}}
+ @media(prefers-reduced-motion:reduce){*{animation:none!important}animateMotion{display:none}.flake{opacity:1!important}.completed{opacity:1}.working{opacity:0}.moving,.arrival-flash{display:none}}
 </style>
 <rect width="1096" height="590" rx="20" fill="#f5f7f9"/>
 <rect x="24" y="120" width="1048" height="450" rx="16" fill="url(#grid)"/>
@@ -199,6 +199,12 @@ for i, (name, commits, color) in enumerate(REPOS):
 <animateMotion dur="{period}s" begin="{delay:.8f}s" repeatCount="indefinite" path="{route}" keyPoints="0;1;1" keyTimes="0;{motion_end:.9f};1" calcMode="linear"/>
 <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;{motion_end-.005:.9f};{motion_end:.9f};1" dur="{period}s" begin="{delay:.8f}s" repeatCount="indefinite"/>
 </g></g>''')
+        # The flash starts at this parcel's arrival, including across loop edges.
+        parts.append(f'''<g class="arrival-flash" fill="{color}" opacity="0">
+<rect x="403" y="207" width="28" height="52" rx="10" opacity=".18"/>
+<rect x="413" y="215" width="8" height="36" rx="4"/>
+<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.008;.03;1" dur="{period}s" begin="{arrival-period}s" repeatCount="indefinite"/>
+</g>''')
 
 parts.append('</svg>')
 

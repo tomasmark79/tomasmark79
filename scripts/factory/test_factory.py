@@ -121,12 +121,31 @@ class RenderTests(unittest.TestCase):
                 self.assertIn('workshop idle', svg)
                 self.assertIn('*{animation:none!important}', svg)
                 self.assertEqual(root.findall('.//s:animateMotion', NS), [])
+                self.assertEqual(root.findall('.//s:g[@class="arrival-flash"]', NS), [])
                 self.assertNotIn('working<tspan', svg)
 
     def test_one_active_project_and_no_activity_in_other_stations(self):
         svg, root, _ = self.render([{'name': 'active', 'commits': 1}, {'name': 'quiet', 'commits': 0}])
         self.assertEqual(len(root.findall('.//s:animateMotion', NS)), 18)
         self.assertIn('>1 commits</text>', svg)
+
+    def test_arrival_flash_matches_delivery_time_and_project_color(self):
+        _, root, _ = self.render([{'name': 'first', 'commits': 3}, {'name': 'second', 'commits': 2}])
+        deliveries = {}
+        for parcel in root.findall('.//s:g[@class="moving"]', NS):
+            motion = parcel.find('.//s:animateMotion', NS)
+            period = float(motion.get('dur').removesuffix('s'))
+            travel = period * float(motion.get('keyTimes').split(';')[1])
+            arrival = (float(motion.get('begin').removesuffix('s')) + travel) % period
+            deliveries[round(arrival) % 18] = parcel.get('color')
+        flashes = {}
+        for flash in root.findall('.//s:g[@class="arrival-flash"]', NS):
+            animation = flash.find('s:animate', NS)
+            period = float(animation.get('dur').removesuffix('s'))
+            arrival = float(animation.get('begin').removesuffix('s')) % period
+            flashes[arrival] = flash.get('fill')
+        self.assertEqual(len(flashes), 18)
+        self.assertEqual(flashes, deliveries)
 
     def test_shared_belt_arrivals_have_fixed_spacing(self):
         rows = [{'name': f'repo-{i}', 'commits': n} for i, n in enumerate([26,20,19,17,16])]
