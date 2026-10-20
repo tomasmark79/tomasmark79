@@ -1,0 +1,57 @@
+name: Update GNOME extension downloads
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/downloads.yml
+      - scripts/update_downloads.py
+      - scripts/test_update_downloads.py
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: gnome-downloads
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Test download label updates
+        run: python3 -m unittest discover -s scripts -p 'test_update_downloads.py' -v
+
+      - name: Refresh and publish download counts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/update_downloads.py
+            git add -- README.md
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m 'Update GNOME extension download counts'
+            if git push origin HEAD:main; then
+              # A push using GITHUB_TOKEN does not trigger the PDF workflow.
+              gh workflow run readme-pdf.yml --ref main
+              exit 0
+            fi
+          done
+          exit 1
