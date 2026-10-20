@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-09-20",
-  "end": "2026-10-19",
+  "start": "2026-09-21",
+  "end": "2026-10-20",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 120,
+  "total_commits": 110,
   "repositories": [
     {
       "name": "translation-api",
       "commits": 26
     },
     {
-      "name": "DreamScalerWeb",
-      "commits": 20
+      "name": "tomasmark79",
+      "commits": 19
     },
     {
       "name": "WebTranslatePlace",
