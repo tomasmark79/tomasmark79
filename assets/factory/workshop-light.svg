@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="workshop-title workshop-desc">
-<title id="workshop-title">The package workshop</title>
-<desc id="workshop-desc">5 active public projects send packages to a NixOS snowflake assembler. Traffic reflects indexed authored commits from 2026-09-21 through 2026-10-20. Assembly is illustrative and does not represent CI results.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" viewBox="0 0 1096 590" role="img" aria-labelledby="workshop-title workshop-desc">
+<title id="workshop-title">tomasmark79</title>
+<desc id="workshop-desc">5 active public projects send packages to an assembler building the Nixon logo. Traffic reflects indexed authored commits from 2026-09-21 through 2026-10-20. Assembly is illustrative and does not represent CI results.</desc>
 <defs>
  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="var(--tone-3)"/></pattern>
  <pattern id="rollers" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M4 0v18" stroke="#9caab8" stroke-width="2"/></pattern>
@@ -28,27 +28,18 @@
  @keyframes working{0%,76%{opacity:1}79%,94%{opacity:0}100%{opacity:1}}
  @media(prefers-reduced-motion:reduce){*{animation:none!important}animateMotion{display:none}.flake{opacity:1!important}.completed{opacity:1}.working{opacity:0}.moving{display:none}}
 </style>
-<rect width="1120" height="640" rx="20" fill="var(--tone-2)"/>
-<rect x="24" y="120" width="1072" height="450" rx="16" fill="url(#grid)"/>
-<text x="48" y="43" class="tiny muted">TOMASMARK79 / OPEN SOURCE, IN MOTION</text>
-<text x="48" y="87" font-size="34" font-weight="750" letter-spacing="-1.2">The package workshop<tspan fill="#5277c3">.</tspan></text>
-<rect x="865" y="40" width="207" height="30" rx="15" fill="var(--tone-7)"/>
-<circle cx="883" cy="55" r="3" fill="#5277c3"/>
-<text x="895" y="59" font-size="11" class="mono">21 SEP — 20 OCT 2026</text>
-<text x="48" y="156" class="tiny muted">A MONTH OF WORK, MADE TANGIBLE</text>
-<text x="48" y="191" font-size="18" font-weight="550">Commits in. Packages out.</text>
-<text x="48" y="217" font-size="13" class="muted">Five projects keep the workshop moving.</text>
-<text x="48" y="237" font-size="13" class="muted">One snowflake, assembled piece by piece.</text>
-<text x="49" y="287" font-size="30" font-weight="700">97<tspan dx="10" font-size="12" font-weight="400" class="muted">authored commits</tspan></text>
-<path d="M250 260v35" stroke="var(--tone-8)"/>
-<text x="273" y="287" font-size="30" font-weight="700">05<tspan dx="10" font-size="12" font-weight="400" class="muted">active projects</tspan></text>
+<rect width="1096" height="590" rx="20" fill="var(--tone-2)"/>
+<rect x="24" y="120" width="1048" height="450" rx="16" fill="url(#grid)"/>
+<text x="48" y="74" font-size="34" font-weight="750" letter-spacing="-1.2">tomasmark79</text>
+<text x="1048" y="74" text-anchor="end" class="tiny muted">5 ACTIVE PROJECTS · LAST 30 DAYS</text>
 <!-- The delivery belt turns up and back into the assembly chamber. -->
-<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="var(--tone-9)" stroke-width="30"/>
-<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="var(--tone-10)" stroke-width="24"/>
-<path class="roller" d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="var(--tone-11)" stroke-width="19" stroke-dasharray="2 16"/>
+<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H417" fill="none" stroke="var(--tone-9)" stroke-width="30"/>
+<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H417" fill="none" stroke="var(--tone-10)" stroke-width="24"/>
+<path class="roller" d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H417" fill="none" stroke="var(--tone-11)" stroke-width="19" stroke-dasharray="2 16"/>
 <circle cx="78" cy="350" r="13" fill="var(--tone-12)" stroke="var(--tone-13)"/><circle cx="78" cy="350" r="4" fill="var(--tone-14)"/>
 <path d="M88 371v11m280-11v11m280-11v11m280-11v11" stroke="var(--tone-15)" stroke-width="5"/>
 <!-- Assembly chamber and service robot. -->
+<g transform="translate(-550 0)">
 <path d="M598 294h93" stroke="var(--tone-16)" stroke-width="7" stroke-linecap="round"/>
 <rect x="603" y="279" width="67" height="23" rx="4" fill="var(--tone-17)" stroke="var(--tone-18)"/>
 <path d="M636 278v-45l45-34 38 22" fill="none" stroke="var(--tone-19)" stroke-width="12" stroke-linejoin="round"/>
@@ -60,23 +51,20 @@
 <rect x="751" y="139" width="204" height="160" rx="9" fill="url(#glass)" stroke="var(--tone-22)"/>
 <path d="M762 149h24m-24 0v24m182-24h-24m24 0v24m-182 113h24m-24 0v-24m182 24h-24m24 0v-24" fill="none" stroke="var(--tone-23)"/>
 <path d="m766 147 174 143" stroke="#fff" stroke-width="16" style="opacity:var(--glass-reflection)"/>
-<text x="852" y="119" text-anchor="middle" class="tiny muted">NIXOS ASSEMBLER</text>
+<text x="852" y="119" text-anchor="middle" class="tiny muted">ASSEMBLER</text>
 
-<style>@keyframes piece0{0%,18%{opacity:.09;transform:translateY(-3px)}22%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
-<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M7.352 1.592l-1.364.002L5.32 2.75l1.557 2.713-3.137-.008-1.32 2.34H14.11l-1.353-2.332-3.192-.006-2.214-3.865z" fill="#7eb4dd" style="animation:piece0 18s ease-in-out infinite"/></g>
-<style>@keyframes piece1{0%,28%{opacity:.09;transform:translateY(-3px)}32%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
-<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M13.527 1.592l-2.687.025 5.846 10.127 1.341-2.34-1.59-2.765 2.24-3.85-.683-1.182h-1.336l-1.57 2.705-1.56-2.72z" fill="#5277c3" style="animation:piece1 18s ease-in-out infinite"/></g>
-<style>@keyframes piece2{0%,38%{opacity:.09;transform:translateY(-3px)}42%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
-<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M20.414 5.787l-5.846 10.125 2.696-.008 1.601-2.76 4.453.016.682-1.183-.666-1.157-3.13-.008L21.778 8.1l-1.365-2.313z" fill="#7eb4dd" style="animation:piece2 18s ease-in-out infinite"/></g>
-<style>@keyframes piece3{0%,48%{opacity:.09;transform:translateY(-3px)}52%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
-<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M9.432 8.086l-2.696.008-1.601 2.76-4.453-.016L0 12.02l.666 1.157 3.13.008-1.575 2.71 1.365 2.315L9.432 8.086z" fill="#5277c3" style="animation:piece3 18s ease-in-out infinite"/></g>
-<style>@keyframes piece4{0%,58%{opacity:.09;transform:translateY(-3px)}62%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
-<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M7.33 12.25l-.006.01-.002-.004-1.342 2.34 1.59 2.765-2.24 3.85.684 1.182H7.35l.004-.006h.001l1.567-2.698 1.558 2.72 2.688-.026-.004-.006h.01L7.33 12.25z" fill="#7eb4dd" style="animation:piece4 18s ease-in-out infinite"/></g>
-<style>@keyframes piece5{0%,68%{opacity:.09;transform:translateY(-3px)}72%,94%{opacity:1;transform:translateY(0)}100%{opacity:.09;transform:translateY(-3px)}}</style>
-<g transform="translate(778 150) scale(6.2)"><path class="flake" d="M9.88 16.18l1.354 2.332 3.192.006 2.215 3.865 1.363-.002.668-1.156-1.557-2.713 3.137.008 1.32-2.34H9.881z" fill="#5277c3" style="animation:piece5 18s ease-in-out infinite"/></g>
-<rect x="780" y="303" width="146" height="23" rx="5" fill="#203648"/>
-<g class="working"><circle cx="793" cy="315" r="3" fill="#f0ba68" class="lamp"/><text x="806" y="318" fill="#fff" style="fill:#fff" font-size="9" class="mono">assembling flake…</text></g>
-<g class="completed"><circle cx="793" cy="315" r="3" fill="#80cbc4"/><text x="806" y="318" style="fill:#fff" font-size="9" class="mono">snowflake complete</text></g>
+<style>@keyframes piece0{0%,18%{opacity:0;transform:translateY(-24px)}22%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-24px)}}</style>
+<style>@keyframes piece1{0%,27%{opacity:0;transform:translateY(-24px)}31%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-24px)}}</style>
+<style>@keyframes piece2{0%,36%{opacity:0;transform:translateY(-24px)}40%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-24px)}}</style>
+<style>@keyframes piece3{0%,45%{opacity:0;transform:translateY(-24px)}49%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-24px)}}</style>
+<style>@keyframes piece4{0%,54%{opacity:0;transform:translateY(-24px)}58%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-24px)}}</style>
+<style>@keyframes piece5{0%,63%{opacity:0;transform:translateY(-24px)}67%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-24px)}}</style>
+<style>@keyframes piece6{0%,72%{opacity:0;transform:translateY(-24px)}76%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-24px)}}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="138" viewBox="0 0 465.61606 426.00351" version="1.1" id="svg1" xml:space="preserve" ns1:version="1.4.4 (dcaf3e7d9e, 2026-05-05)" ns2:docname="NixTomasLogo.svg" x="778" y="150" aria-hidden="true"><ns2:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns1:showpageshadow="2" ns1:pageopacity="0.0" ns1:pagecheckerboard="0" ns1:deskcolor="#d1d1d1" ns1:document-units="mm" showguides="true" ns1:zoom="0.51669472" ns1:cx="1082.8444" ns1:cy="915.43417" ns1:window-width="1570" ns1:window-height="1097" ns1:window-x="26" ns1:window-y="23" ns1:window-maximized="0" ns1:current-layer="layer4" /><defs id="defs1"><rect x="92.898182" y="1238.6424" width="1006.397" height="692.86561" id="rect1" /><marker orient="auto" refY="0" refX="0" id="marker4405" style="overflow:visible"><path id="path4403" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" /></marker><marker orient="auto" refY="0" refX="0" id="Arrow1Lstart" style="overflow:visible"><path id="path2389" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(0.8,0,0,0.8,10,0)" /></marker><marker orient="auto" refY="0" refX="0" id="Arrow1Lend" style="overflow:visible"><path id="path2392" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" /></marker><linearGradient ns1:collect="always" id="linearGradient5562"><stop style="stop-color:#699ad7;stop-opacity:1" offset="0" id="stop5564" /><stop id="stop5566" offset="0.24345198" style="stop-color:#7eb1dd;stop-opacity:1" /><stop style="stop-color:#7ebae4;stop-opacity:1" offset="1" id="stop5568" /></linearGradient><linearGradient ns1:collect="always" id="linearGradient5053"><stop style="stop-color:#415e9a;stop-opacity:1" offset="0" id="stop5055" /><stop id="stop5057" offset="0.23168644" style="stop-color:#4a6baf;stop-opacity:1" /><stop style="stop-color:#5277c3;stop-opacity:1" offset="1" id="stop5059" /></linearGradient><linearGradient id="linearGradient5960" ns1:collect="always"><stop id="stop5962" offset="0" style="stop-color:#637ddf;stop-opacity:1" /><stop style="stop-color:#649afa;stop-opacity:1" offset="0.23168644" id="stop5964" /><stop id="stop5966" offset="1" style="stop-color:#719efa;stop-opacity:1" /></linearGradient><linearGradient y2="515.97058" x2="282.26105" y1="338.62445" x1="213.95642" gradientTransform="translate(983.36076,601.38885)" gradientUnits="userSpaceOnUse" id="linearGradient5855" xlink:href="#linearGradient5960" ns1:collect="always" /><linearGradient ns1:collect="always" xlink:href="#linearGradient5562" id="linearGradient5384" gradientUnits="userSpaceOnUse" gradientTransform="translate(70.650339,-1055.1511)" x1="200.59668" y1="351.41116" x2="290.08701" y2="506.18814" /><linearGradient ns1:collect="always" xlink:href="#linearGradient5053" id="linearGradient5386" gradientUnits="userSpaceOnUse" gradientTransform="translate(864.69589,-1491.3405)" x1="-584.19934" y1="782.33563" x2="-496.29703" y2="937.71399" /><marker orient="auto" refY="0" refX="0" id="marker4405-3" style="overflow:visible"><path id="path4403-5" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" /></marker><marker orient="auto" refY="0" refX="0" id="Arrow1Lstart-6" style="overflow:visible"><path id="path2389-2" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(0.8,0,0,0.8,10,0)" /></marker><marker orient="auto" refY="0" refX="0" id="Arrow1Lend-9" style="overflow:visible"><path id="path2392-1" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" /></marker><path ns2:nodetypes="cccccccccc" ns1:connector-curvature="0" id="path3336-6" d="m 309.54892,-710.38827 122.19683,211.67512 -56.15706,0.5268 -32.6236,-56.8692 -32.85645,56.5653 -27.90237,-0.011 -14.29086,-24.6896 46.81047,-80.4901 -33.22946,-57.8257 z" style="opacity:1;fill:url(#linearGradient5384);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></defs><g ns1:label="Vrstva 1" ns1:groupmode="layer" id="layer1" transform="translate(130.05254,111.16879)"><g id="g1" transform="matrix(0.92800768,0,0,0.97869645,-152.09876,-135.35587)"><g id="layer7" ns1:label="bg" style="display:none"><rect transform="translate(-132.5822,958.04022)" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" id="rect5389" width="1543.4283" height="483.7439" x="132.5822" y="-957.77832" /></g><g id="layer5" ns1:label="guide" style="display:none;opacity:0.516" transform="translate(-132.5822,958.04022)"><rect y="-957.77832" x="132.5822" height="483.7439" width="1543.4283" id="rect5350" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#d4d4d4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" /><rect style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#9b9b9b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" id="rect5346" width="1496.443" height="435.68069" x="155.77646" y="-933.38721" ns1:export-xdpi="17.971878" ns1:export-ydpi="17.971878" /><rect y="-851.65918" x="159.02695" height="272.58423" width="1492.5731" id="rect5348" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#848484;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" /></g><g id="layer6" ns1:label="logo-guide" style="display:none" transform="translate(-132.5822,958.04022)"><rect y="-958.02759" x="132.65129" height="484.30399" width="550.41602" id="rect5379" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#5c201e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" ns1:export-filename="/home/tim/dev/nix/homepage/logo/nix-wiki.png" ns1:export-xdpi="22.07" ns1:export-ydpi="22.07" /><rect style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#c24a46;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" id="rect5372" width="501.94415" height="434.30405" x="156.12303" y="-933.02759" ns1:export-filename="/home/tim/dev/nix/homepage/logo/nixos-logo-only-hires-print.png" ns1:export-xdpi="212.2" ns1:export-ydpi="212.2" /><rect style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#d98d8a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" id="rect5381" width="24.939611" height="24.939611" x="658.02826" y="-958.04022" /></g><g id="layer3" ns1:label="gradient-logo" style="display:inline;opacity:1" transform="translate(-132.5822,958.04022)"><g class="flake" style="animation:piece0 18s ease-in-out infinite"><use height="100%" width="100%" transform="rotate(60,407.11155,-715.78724)" id="use3439-6" ns1:transform-center-y="151.59082" ns1:transform-center-x="124.43045" xlink:href="#path3336-6" y="0" x="0" /></g><g class="flake" style="animation:piece1 18s ease-in-out infinite"><use height="100%" width="100%" transform="rotate(-60,407.31177,-715.70016)" id="use3445-0" ns1:transform-center-y="75.573958" ns1:transform-center-x="-168.20651" xlink:href="#path3336-6" y="0" x="0" /></g><g class="flake" style="animation:piece2 18s ease-in-out infinite"><use height="100%" width="100%" transform="rotate(180,407.41868,-715.7565)" id="use3449-5" ns1:transform-center-y="-139.94592" ns1:transform-center-x="59.669705" xlink:href="#path3336-6" y="0" x="0" /></g><g class="flake" style="animation:piece3 18s ease-in-out infinite"><path style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient5386);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 309.54892,-710.38827 122.19683,211.67512 -56.15706,0.5268 -32.6236,-56.8692 -32.85645,56.5653 -27.90237,-0.011 -14.29086,-24.6896 46.81047,-80.4901 -33.22946,-57.8256 z" id="path4260-0" ns1:connector-curvature="0" ns2:nodetypes="cccccccccc" /></g><g class="flake" style="animation:piece4 18s ease-in-out infinite"><use height="100%" width="100%" transform="rotate(120,407.33916,-716.08356)" id="use4354-5" xlink:href="#path4260-0" y="0" x="0" style="display:inline" /></g><g class="flake" style="animation:piece5 18s ease-in-out infinite"><use height="100%" width="100%" transform="rotate(-120,407.28823,-715.86995)" id="use4362-2" xlink:href="#path4260-0" y="0" x="0" style="display:inline" /></g></g><g style="display:inline" ns1:label="text-vegur" id="g5329" transform="translate(1118.1059,2115.4303)"><g aria-label="Nix" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:395.097px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="text5407" /><g aria-label="O" transform="scale(0.95067318,1.0518862)" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:367.487px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="text5356" /><g aria-label="S" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:386.555px;line-height:125%;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="text5364" /></g></g><text xml:space="preserve" id="text1" style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#e3e2db" transform="matrix(0.26458333,0,0,0.26458333,-130.05254,-111.16879)" /><text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:52.8066;display:inline;fill:#e6e6e6;stroke-width:0.264583" x="278.56552" y="524.35864" id="text2" transform="matrix(2.4508706,0,0,2.4508706,-508.40745,-1090.1987)"><tspan x="278.56552" y="524.35864" id="tspan1">tomas@digitalspace.name</tspan></text></g><g ns1:groupmode="layer" id="layer4" ns1:label="Text"><g class="flake" style="animation:piece6 18s ease-in-out infinite"><g id="g4" transform="matrix(0.10274418,0,0,0.09979341,180.20148,161.90803)"><path d="M 1035.55,853.89 V 195.73 Q 1035.55,104.56 989.96,49 944.38,-6.56 848.93,-6.56 H 185.07 q -89.75,0 -143.17,43.45 -53.42,43.45 -53.42,137.47 v 629.67 q 0,47.02 8.55,88.33 8.55,41.31 28.48,71.94 19.95,30.64 54.84,48.44 34.91,17.81 89.05,17.81 h 695.2 q 82.62,0 126.78,-47.73 44.17,-47.72 44.17,-128.92 z" fill="#000000" id="path1" /><path d="m 573.55,721.05 q -28.83,22.17 -69.88,22.17 -35.48,0 -54.89,-20.52 -19.41,-20.52 -19.41,-58.22 V 421.59 H 577.98 V 288.51 H 429.37 V 143.23 H 256.35 V 288.51 H 164.3 v 133.08 h 92.05 V 666.7 q 0,105.36 58.22,159.7 58.23,54.34 164.7,54.34 41.03,0 78.19,-9.44 37.16,-9.42 62.66,-28.27 l -46.58,-122 z" fill="#ffffff" id="path2" /><path d="m 618.73,289.05 v 42.41 h 164.36 l -275.23,275.23 30,30 275.23,-275.23 V 525.82 H 855.5 V 289.05 Z" fill="#98c936" id="path3" /></g></g></g></svg>
+<rect x="760" y="303" width="186" height="23" rx="5" fill="#203648"/>
+<g class="working"><circle cx="773" cy="315" r="3" fill="#f0ba68" class="lamp"/><text x="786" y="318" fill="#fff" style="fill:#fff" font-size="9" class="mono">assembling solutions ...</text></g>
+<g class="completed"><circle cx="773" cy="315" r="3" fill="#80cbc4"/><text x="786" y="318" style="fill:#fff" font-size="9" class="mono">project complete</text></g>
+</g>
 
 <!-- translation-api: 26 indexed authored commits. -->
 <a href="https://github.com/tomasmark79/translation-api">
@@ -101,24 +89,24 @@
 <text x="129" y="564" text-anchor="middle" font-size="11" class="mono muted">26 commits</text>
 </a>
 <g class="moving" color="#80cbc4"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-12.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-12.54060181s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-16.78654163s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.932585646;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.927585646;0.932585646;1" dur="18s" begin="-16.78654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#80cbc4"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-7.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-7.54060181s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-11.78654163s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.932585646;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.927585646;0.932585646;1" dur="18s" begin="-11.78654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#80cbc4"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-4.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-4.54060181s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-8.78654163s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.932585646;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.927585646;0.932585646;1" dur="18s" begin="-8.78654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#80cbc4"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-0.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-0.54060181s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-4.78654163s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.932585646;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.927585646;0.932585646;1" dur="18s" begin="-4.78654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#80cbc4"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-13.54060181s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.696700101;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.691700101;0.696700101;1" dur="18s" begin="-13.54060181s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-17.78654163s" repeatCount="indefinite" path="M129 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.932585646;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.927585646;0.932585646;1" dur="18s" begin="-17.78654163s" repeatCount="indefinite"/>
 </g></g>
 <!-- tomasmark79: 19 indexed authored commits. -->
 <a href="https://github.com/tomasmark79/tomasmark79">
@@ -143,20 +131,20 @@
 <text x="323" y="564" text-anchor="middle" font-size="11" class="mono muted">19 commits</text>
 </a>
 <g class="moving" color="#b6a0de"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-9.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-9.38504626s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-13.84654163s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.824807868;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.819807868;0.824807868;1" dur="18s" begin="-13.84654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#b6a0de"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-4.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-4.38504626s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-8.84654163s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.824807868;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.819807868;0.824807868;1" dur="18s" begin="-8.84654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#b6a0de"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-17.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-17.38504626s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-3.84654163s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.824807868;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.819807868;0.824807868;1" dur="18s" begin="-3.84654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#b6a0de"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-12.38504626s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.576947014;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.571947014;0.576947014;1" dur="18s" begin="-12.38504626s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-16.84654163s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.824807868;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.819807868;0.824807868;1" dur="18s" begin="-16.84654163s" repeatCount="indefinite"/>
 </g></g>
 <!-- WebTranslatePlace: 19 indexed authored commits. -->
 <a href="https://github.com/tomasmark79/WebTranslatePlace">
@@ -181,16 +169,16 @@
 <text x="517" y="564" text-anchor="middle" font-size="11" class="mono muted">19 commits</text>
 </a>
 <g class="moving" color="#f0ba68"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-6.22949070s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.457193928;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.452193928;0.457193928;1" dur="18s" begin="-6.22949070s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-10.90654163s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.717030091;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.712030091;0.717030091;1" dur="18s" begin="-10.90654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#f0ba68"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-1.22949070s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.457193928;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.452193928;0.457193928;1" dur="18s" begin="-1.22949070s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-5.90654163s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.717030091;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.712030091;0.717030091;1" dur="18s" begin="-5.90654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#f0ba68"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-13.22949070s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.457193928;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.452193928;0.457193928;1" dur="18s" begin="-13.22949070s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-17.90654163s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.717030091;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.712030091;0.717030091;1" dur="18s" begin="-17.90654163s" repeatCount="indefinite"/>
 </g></g>
 <!-- TranslatePlace: 17 indexed authored commits. -->
 <a href="https://github.com/tomasmark79/TranslatePlace">
@@ -215,16 +203,16 @@
 <text x="711" y="564" text-anchor="middle" font-size="11" class="mono muted">17 commits</text>
 </a>
 <g class="moving" color="#8ab9e9"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-3.07393514s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.337440841;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.332440841;0.337440841;1" dur="18s" begin="-3.07393514s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-7.96654163s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.609252313;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.604252313;0.609252313;1" dur="18s" begin="-7.96654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#8ab9e9"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-15.07393514s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.337440841;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.332440841;0.337440841;1" dur="18s" begin="-15.07393514s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-1.96654163s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.609252313;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.604252313;0.609252313;1" dur="18s" begin="-1.96654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#8ab9e9"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-10.07393514s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.337440841;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.332440841;0.337440841;1" dur="18s" begin="-10.07393514s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-14.96654163s" repeatCount="indefinite" path="M711 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.609252313;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.604252313;0.609252313;1" dur="18s" begin="-14.96654163s" repeatCount="indefinite"/>
 </g></g>
 <!-- NixonCpp: 16 indexed authored commits. -->
 <a href="https://github.com/tomasmark79/NixonCpp">
@@ -249,19 +237,15 @@
 <text x="905" y="564" text-anchor="middle" font-size="11" class="mono muted">16 commits</text>
 </a>
 <g class="moving" color="#e5948c"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-17.91837959s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.217687755;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.212687755;0.217687755;1" dur="18s" begin="-17.91837959s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-5.02654163s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.501474535;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.496474535;0.501474535;1" dur="18s" begin="-5.02654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#e5948c"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-11.91837959s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.217687755;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.212687755;0.217687755;1" dur="18s" begin="-11.91837959s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-17.02654163s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.501474535;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.496474535;0.501474535;1" dur="18s" begin="-17.02654163s" repeatCount="indefinite"/>
 </g></g>
 <g class="moving" color="#e5948c"><g><use href="#parcel"/>
-<animateMotion dur="18s" begin="-6.91837959s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969" keyPoints="0;1;1" keyTimes="0;0.217687755;1" calcMode="linear"/>
-<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.212687755;0.217687755;1" dur="18s" begin="-6.91837959s" repeatCount="indefinite"/>
+<animateMotion dur="18s" begin="-12.02654163s" repeatCount="indefinite" path="M905 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.501474535;1" calcMode="linear"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;0.496474535;0.501474535;1" dur="18s" begin="-12.02654163s" repeatCount="indefinite"/>
 </g></g>
-<path d="M48 589h1024" stroke="var(--tone-12)"/>
-<circle cx="52" cy="612" r="3" fill="#5277c3"/>
-<text x="64" y="616" font-size="11" class="muted">Public commit activity · illustrative assembly, not CI status</text>
-<text x="1072" y="616" text-anchor="end" font-size="11" class="mono muted">LAST 30 DAYS</text>
 <style>:root{--metal-top:#fff;--glass-reflection:.35;--tone-0:#243849;--tone-1:#647986;--tone-2:#f5f7f9;--tone-3:#cdd5db;--tone-4:#e4e9ed;--tone-5:#e4f0fc;--tone-6:#f6faff;--tone-7:#e7edf3;--tone-8:#ccd5dc;--tone-9:#c6d1db;--tone-10:#ecf0f3;--tone-11:#a9b8c5;--tone-12:#d7e0e7;--tone-13:#94a7b5;--tone-14:#758c9e;--tone-15:#aebcc7;--tone-16:#c4d0da;--tone-17:#e4eaf0;--tone-18:#8194a4;--tone-19:#344f65;--tone-20:#d4dfe7;--tone-21:#9cabb8;--tone-22:#c1d3e3;--tone-23:#afc3d4;--tone-24:#bbc9d4;--tone-25:#e7edf2;--tone-26:#9bafbf;--tone-27:#536d80;--tone-28:#8298aa;--tone-29:#536a7b;--tone-30:#cad5df;--tone-31:#f7f9fa;--tone-32:#b5c4cf}</style></svg>

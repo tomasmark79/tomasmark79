@@ -117,7 +117,7 @@ class RenderTests(unittest.TestCase):
         for rows in [[], [{'name': 'quiet', 'commits': 0}]]:
             with self.subTest(rows=rows):
                 svg, root, _ = self.render(rows)
-                self.assertIn('No commits in the last 30 days.', svg)
+                self.assertIn('Public project stations and the assembler are idle.', svg)
                 self.assertIn('workshop idle', svg)
                 self.assertIn('*{animation:none!important}', svg)
                 self.assertEqual(root.findall('.//s:animateMotion', NS), [])
@@ -125,9 +125,8 @@ class RenderTests(unittest.TestCase):
 
     def test_one_active_project_and_no_activity_in_other_stations(self):
         svg, root, _ = self.render([{'name': 'active', 'commits': 1}, {'name': 'quiet', 'commits': 0}])
-        self.assertIn('1 project keeps the workshop moving.', svg)
         self.assertEqual(len(root.findall('.//s:animateMotion', NS)), 18)
-        self.assertIn('>1<tspan', svg)
+        self.assertIn('>1 commits</text>', svg)
 
     def test_shared_belt_arrivals_have_fixed_spacing(self):
         rows = [{'name': f'repo-{i}', 'commits': n} for i, n in enumerate([26,20,19,17,16])]
@@ -142,8 +141,7 @@ class RenderTests(unittest.TestCase):
         gaps = [(arrivals[(i+1)%18] - arrivals[i]) % 18 for i in range(18)]
         for gap in gaps:
             self.assertAlmostEqual(gap, 1, places=6)
-        self.assertIn('03 DEC — 01 JAN 2027', svg)
-        self.assertIn('>98<tspan', svg)
+        self.assertIn('2026-12-03 through 2027-01-01', svg)
         self.assertNotIn('@media(prefers-color-scheme:dark)', (folder/'workshop-light.svg').read_text())
         self.assertNotIn('@media(prefers-color-scheme:dark)', (folder/'workshop-dark.svg').read_text())
 

@@ -9,7 +9,7 @@ on:
     paths:
       - .github/workflows/factory.yml
       - scripts/factory/**
-      - assets/icons/nixos.svg
+      - assets/NixTomasLogo.svg
 
 permissions:
   contents: write

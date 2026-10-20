@@ -7,6 +7,7 @@ from pathlib import Path
 import json
 import math
 import re
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[2]
 parser = argparse.ArgumentParser(description=__doc__)
@@ -34,7 +35,7 @@ start, end = date.fromisoformat(snapshot['start']), date.fromisoformat(snapshot[
 if (end - start).days != 29:
     raise ValueError('Expected a 30-day inclusive window')
 
-BELT_SPEED = 90  # Drawing units per second, identical on every delivery route.
+BELT_SPEED = 100  # Drawing units per second, identical on every delivery route.
 CYCLE = 18
 # Allocate the 18 delivery slots proportionally using largest remainders.
 quotas = [CYCLE * commits / total if total else 0 for _, commits, _ in REPOS]
@@ -53,9 +54,9 @@ for slot in range(CYCLE if total else 0):
 # Length of one rounded corner: quadratic Bezier (0,0), (r,0), (r,r).
 CORNER_LENGTH = 27 * (1 + math.asinh(1) / math.sqrt(2))
 
-parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="workshop-title workshop-desc">
-<title id="workshop-title">The package workshop</title>
-<desc id="workshop-desc">Five public projects send packages to a NixOS snowflake assembler. Traffic reflects indexed authored commits from September 20 through October 19, 2026. Assembly is illustrative and does not represent CI results.</desc>
+parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" viewBox="0 0 1096 590" role="img" aria-labelledby="workshop-title workshop-desc">
+<title id="workshop-title">__WORKSHOP_OWNER__</title>
+<desc id="workshop-desc">Five public projects send packages to an assembler building the Nixon logo. Traffic reflects indexed authored commits from September 20 through October 19, 2026. Assembly is illustrative and does not represent CI results.</desc>
 <defs>
  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#cdd5db"/></pattern>
  <pattern id="rollers" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M4 0v18" stroke="#9caab8" stroke-width="2"/></pattern>
@@ -83,27 +84,18 @@ parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" vi
  @keyframes working{0%,76%{opacity:1}79%,94%{opacity:0}100%{opacity:1}}
  @media(prefers-reduced-motion:reduce){*{animation:none!important}animateMotion{display:none}.flake{opacity:1!important}.completed{opacity:1}.working{opacity:0}.moving{display:none}}
 </style>
-<rect width="1120" height="640" rx="20" fill="#f5f7f9"/>
-<rect x="24" y="120" width="1072" height="450" rx="16" fill="url(#grid)"/>
-<text x="48" y="43" class="tiny muted">TOMASMARK79 / OPEN SOURCE, IN MOTION</text>
-<text x="48" y="87" font-size="34" font-weight="750" letter-spacing="-1.2">The package workshop<tspan fill="#5277c3">.</tspan></text>
-<rect x="865" y="40" width="207" height="30" rx="15" fill="#e7edf3"/>
-<circle cx="883" cy="55" r="3" fill="#5277c3"/>
-<text x="895" y="59" font-size="11" class="mono">20 SEP — 19 OCT 2026</text>
-<text x="48" y="156" class="tiny muted">A MONTH OF WORK, MADE TANGIBLE</text>
-<text x="48" y="191" font-size="18" font-weight="550">Commits in. Packages out.</text>
-<text x="48" y="217" font-size="13" class="muted">Five projects keep the workshop moving.</text>
-<text x="48" y="237" font-size="13" class="muted">One snowflake, assembled piece by piece.</text>
-<text x="49" y="287" font-size="30" font-weight="700">98<tspan dx="10" font-size="12" font-weight="400" class="muted">authored commits</tspan></text>
-<path d="M250 260v35" stroke="#ccd5dc"/>
-<text x="273" y="287" font-size="30" font-weight="700">05<tspan dx="10" font-size="12" font-weight="400" class="muted">public projects</tspan></text>
+<rect width="1096" height="590" rx="20" fill="#f5f7f9"/>
+<rect x="24" y="120" width="1048" height="450" rx="16" fill="url(#grid)"/>
+<text x="48" y="74" font-size="34" font-weight="750" letter-spacing="-1.2">__WORKSHOP_OWNER__</text>
+<text x="1048" y="74" text-anchor="end" class="tiny muted">__ACTIVE_PROJECTS__ · LAST 30 DAYS</text>
 <!-- The delivery belt turns up and back into the assembly chamber. -->
-<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="#c6d1db" stroke-width="30"/>
-<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="#ecf0f3" stroke-width="24"/>
-<path class="roller" d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H967" fill="none" stroke="#a9b8c5" stroke-width="19" stroke-dasharray="2 16"/>
+<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H417" fill="none" stroke="#c6d1db" stroke-width="30"/>
+<path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H417" fill="none" stroke="#ecf0f3" stroke-width="24"/>
+<path class="roller" d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H417" fill="none" stroke="#a9b8c5" stroke-width="19" stroke-dasharray="2 16"/>
 <circle cx="78" cy="350" r="13" fill="#d7e0e7" stroke="#94a7b5"/><circle cx="78" cy="350" r="4" fill="#758c9e"/>
 <path d="M88 371v11m280-11v11m280-11v11m280-11v11" stroke="#aebcc7" stroke-width="5"/>
 <!-- Assembly chamber and service robot. -->
+<g transform="translate(-550 0)">
 <path d="M598 294h93" stroke="#c4d0da" stroke-width="7" stroke-linecap="round"/>
 <rect x="603" y="279" width="67" height="23" rx="4" fill="#e4eaf0" stroke="#8194a4"/>
 <path d="M636 278v-45l45-34 38 22" fill="none" stroke="#344f65" stroke-width="12" stroke-linejoin="round"/>
@@ -115,28 +107,48 @@ parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" vi
 <rect x="751" y="139" width="204" height="160" rx="9" fill="url(#glass)" stroke="#c1d3e3"/>
 <path d="M762 149h24m-24 0v24m182-24h-24m24 0v24m-182 113h24m-24 0v-24m182 24h-24m24 0v-24" fill="none" stroke="#afc3d4"/>
 <path d="m766 147 174 143" stroke="#fff" stroke-width="16" style="opacity:var(--glass-reflection)"/>
-<text x="852" y="119" text-anchor="middle" class="tiny muted">NIXOS ASSEMBLER</text>
+<text x="852" y="119" text-anchor="middle" class="tiny muted">ASSEMBLER</text>
 ''']
 
-logo = (ROOT / 'assets/icons/nixos.svg').read_text()
-path = re.search(r'<path d="([^"]+)"', logo).group(1)
-segments = re.split('[zZ]', path)
-last = (0., 0.)
-for i, segment in enumerate(s for s in segments if s.strip()):
-    match = re.match(r'([Mm])(-?[\d.]+)[ ,]+(-?[\d.]+)', segment)
-    cmd, x, y = match.groups()
-    x, y = float(x), float(y)
-    if cmd == 'm':
-        x, y = x + last[0], y + last[1]
-    last = x, y
-    segment = f'M{x:g} {y:g}' + segment[match.end():] + 'z'
-    threshold = 18 + i * 10
-    parts.append(f'''<style>@keyframes piece{i}{{0%,{threshold}%{{opacity:.09;transform:translateY(-3px)}}{threshold+4}%,94%{{opacity:1;transform:translateY(0)}}100%{{opacity:.09;transform:translateY(-3px)}}}}</style>
-<g transform="translate(778 150) scale(6.2)"><path class="flake" d="{segment}" fill="{'#5277c3' if i%2 else '#7eb4dd'}" style="animation:piece{i} 18s ease-in-out infinite"/></g>''')
+# Inline the original artwork, retaining its gradients, references and transforms.
+# Animate wrappers so the source geometry and the central personal mark stay intact.
+SVG_NS = 'http://www.w3.org/2000/svg'
+ET.register_namespace('', SVG_NS)
+ET.register_namespace('xlink', 'http://www.w3.org/1999/xlink')
+logo = ET.parse(ROOT / 'assets/NixTomasLogo.svg').getroot()
+logo.set('x', '778')
+logo.set('y', '150')
+logo.set('width', '150')
+logo.set('height', '138')
+logo.set('aria-hidden', 'true')
+# The source includes a flat print copy beneath the gradient artwork. Keeping
+# both would leave a complete, static snowflake behind the animated pieces.
+print_layer = logo.find(".//*[@id='layer1-7']")
+next(node for node in logo.iter() if print_layer in list(node)).remove(print_layer)
+gradient_layer = logo.find(".//*[@id='layer3']")
+# The light source arm is also painted over by the dark arm at the same angle.
+# Keep it as a reference in defs so only the six visible arms are animated.
+source_arm = gradient_layer[0]
+gradient_layer.remove(source_arm)
+logo.find(f'{{{SVG_NS}}}defs').append(source_arm)
+assembly_parts = list(logo.find(".//*[@id='layer3']")) + list(logo.find(".//*[@id='layer4']"))
+for i, piece in enumerate(assembly_parts):
+    parent = next(node for node in logo.iter() if piece in list(node))
+    position = list(parent).index(piece)
+    parent.remove(piece)
+    wrapper = ET.Element(f'{{{SVG_NS}}}g', {
+        'class': 'flake', 'style': f'animation:piece{i} 18s ease-in-out infinite',
+    })
+    wrapper.append(piece)
+    parent.insert(position, wrapper)
+    threshold = 18 + i * (54 / max(1, len(assembly_parts) - 1))
+    parts.append(f'''<style>@keyframes piece{i}{{0%,{threshold:g}%{{opacity:0;transform:translateY(-24px)}}{threshold+4:g}%,94%{{opacity:1;transform:translateY(0)}}100%{{opacity:0;transform:translateY(-24px)}}}}</style>''')
+parts.append(ET.tostring(logo, encoding='unicode'))
 
-parts.append('''<rect x="780" y="303" width="146" height="23" rx="5" fill="#243849"/>
-<g class="working"><circle cx="793" cy="315" r="3" fill="#f0ba68" class="lamp"/><text x="806" y="318" fill="#fff" style="fill:#fff" font-size="9" class="mono">assembling flake…</text></g>
-<g class="completed"><circle cx="793" cy="315" r="3" fill="#80cbc4"/><text x="806" y="318" style="fill:#fff" font-size="9" class="mono">snowflake complete</text></g>
+parts.append('''<rect x="760" y="303" width="186" height="23" rx="5" fill="#243849"/>
+<g class="working"><circle cx="773" cy="315" r="3" fill="#f0ba68" class="lamp"/><text x="786" y="318" fill="#fff" style="fill:#fff" font-size="9" class="mono">assembling solutions ...</text></g>
+<g class="completed"><circle cx="773" cy="315" r="3" fill="#80cbc4"/><text x="786" y="318" style="fill:#fff" font-size="9" class="mono">project complete</text></g>
+</g>
 ''')
 
 for i, (name, commits, color) in enumerate(REPOS):
@@ -176,8 +188,8 @@ for i, (name, commits, color) in enumerate(REPOS):
     # Reserve equally spaced arrival slots at the assembler. Compute departure
     # backwards from route length: every shared belt has the same speed, and
     # merges leave a full slot of space, including across the loop boundary.
-    route = f'M{cx} 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H969'
-    route_length = 70 + (1003 - cx) + 2 * CORNER_LENGTH + 63 + 34
+    route = f'M{cx} 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419'
+    route_length = 70 + (1003 - cx) + 2 * CORNER_LENGTH + 63 + 584
     duration = route_length / BELT_SPEED
     for arrival in deliveries[i]:
         delay = (arrival - duration) % CYCLE - CYCLE
@@ -188,35 +200,19 @@ for i, (name, commits, color) in enumerate(REPOS):
 <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.005;{motion_end-.005:.9f};{motion_end:.9f};1" dur="{period}s" begin="{delay:.8f}s" repeatCount="indefinite"/>
 </g></g>''')
 
-parts.append('''<path d="M48 589h1024" stroke="#d7e0e7"/>
-<circle cx="52" cy="612" r="3" fill="#5277c3"/>
-<text x="64" y="616" font-size="11" class="muted">Public commit activity · illustrative assembly, not CI status</text>
-<text x="1072" y="616" text-anchor="end" font-size="11" class="mono muted">PROTOTYPE / 001</text>
-</svg>''')
+parts.append('</svg>')
 
 svg = '\n'.join(parts)
+svg = svg.replace('__WORKSHOP_OWNER__', escape(owner))
+project_label = 'ACTIVE PROJECT' if active_count == 1 else 'ACTIVE PROJECTS'
+svg = svg.replace('__ACTIVE_PROJECTS__', f'{active_count} {project_label}')
 # Substitute the current data into the approved composition.
-months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
-date_label = f'{start.day:02} {months[start.month-1]} — {end.day:02} {months[end.month-1]} {end.year}'
-svg = svg.replace('20 SEP — 19 OCT 2026', date_label)
 svg = svg.replace('September 20 through October 19, 2026', f'{start.isoformat()} through {end.isoformat()}')
-svg = svg.replace('TOMASMARK79 /', escape(owner.upper()) + ' /')
-svg = svg.replace('>98<tspan', f'>{total}<tspan')
-svg = svg.replace('>05<tspan', f'>{active_count:02}<tspan')
-svg = svg.replace('>public projects<', '>active projects<')
-svg = svg.replace('PROTOTYPE / 001', 'LAST 30 DAYS')
-svg = svg.replace('The package workshop — prototype', 'The package workshop')
 svg = svg.replace('Five public projects send packages', f'{active_count} active public projects send packages')
 if idle:
-    svg = svg.replace('0 active public projects send packages to a NixOS snowflake assembler.', 'Public project stations and the NixOS assembler are idle.')
-    svg = svg.replace('Commits in. Packages out.', 'The workshop is taking a breather.')
-    svg = svg.replace('Five projects keep the workshop moving.', 'No commits in the last 30 days.')
-    svg = svg.replace('One snowflake, assembled piece by piece.', 'Ready when the next idea arrives.')
-    svg = svg.replace('assembling flake…', 'workshop idle')
-    svg = svg.replace('</svg>', '<style>*{animation:none!important}.flake{opacity:.12!important}.completed{opacity:0}.working{opacity:1}.lamp{opacity:.35}</style></svg>')
-elif active_count < 5:
-    noun = 'project keeps' if active_count == 1 else 'projects keep'
-    svg = svg.replace('Five projects keep the workshop moving.', f'{active_count} {noun} the workshop moving.')
+    svg = svg.replace('0 active public projects send packages to an assembler building the Nixon logo.', 'Public project stations and the assembler are idle.')
+    svg = svg.replace('assembling solutions ...', 'workshop idle')
+    svg = svg.removesuffix('</svg>') + '<style>*{animation:none!important}.flake{opacity:.12!important}.completed{opacity:0}.working{opacity:1}.lamp{opacity:.35}</style></svg>'
 # Keep displays dark in both themes; other neutral surfaces follow the theme.
 svg = svg.replace('fill="#243849"', 'fill="#203648"')
 svg = svg.replace('<stop stop-color="#fff"/>', '<stop stop-color="var(--metal-top)"/>')
@@ -265,12 +261,12 @@ for i, (original, themed) in enumerate(palette.items()):
     dark.append(f'{key}:{themed}')
 theme = ('<style>:root{' + ';'.join(light) + '}'
          '@media(prefers-color-scheme:dark){:root{' + ';'.join(dark) + '}}</style>')
-svg = svg.replace('</svg>', theme + '</svg>')
+svg = svg.removesuffix('</svg>') + theme + '</svg>'
 OUT.mkdir(parents=True, exist_ok=True)
 (OUT / 'workshop.svg').write_text(svg)
 for name, declarations in [('light', light), ('dark', dark)]:
     fixed = svg.replace(theme, '<style>:root{' + ';'.join(declarations) + '}</style>')
     (OUT / f'workshop-{name}.svg').write_text(fixed)
 # A local artwork viewer, with the SVG inline for deterministic frame capture.
-(OUT / 'preview.html').write_text('''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The package workshop</title><style>html,body{margin:0;background:#e9eef2}body{display:grid;place-items:center;min-height:100vh}svg{display:block;width:min(1120px,100vw);height:auto}a{cursor:pointer}@media(prefers-color-scheme:dark){html,body{background:#0b1420}}</style>''' + svg + '</html>')
+(OUT / 'preview.html').write_text('''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The package workshop</title><style>html,body{margin:0;background:#e9eef2}body{display:grid;place-items:center;min-height:100vh}svg{display:block;width:min(1096px,100vw);height:auto}a{cursor:pointer}@media(prefers-color-scheme:dark){html,body{background:#0b1420}}</style>''' + svg + '</html>')
 print(f'Generated {OUT / "workshop.svg"}')
