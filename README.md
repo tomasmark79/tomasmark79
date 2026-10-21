@@ -1,8 +1,8 @@
 ## GNOME Shell extensions
-- [Keyboard Informer](https://github.com/tomasmark79/kbd-informer) — show modifier and lock-key states in GNOME Shell [5729 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)
-- [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — create a smooth, adjustable blurred wallpaper [1003 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
+- [Keyboard Informer](https://github.com/tomasmark79/kbd-informer) — show modifier and lock-key states in GNOME Shell [5734 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)
+- [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — create a smooth, adjustable blurred wallpaper [1009 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
 - [My Vision](https://github.com/tomasmark79/my-vision) — save and quickly switch between display profiles [377 Downloads](https://extensions.gnome.org/extension/9014/my-vision/)
-- [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [114 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
+- [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [117 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
 
 ## NixOS Tools
 
