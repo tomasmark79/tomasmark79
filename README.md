@@ -1,9 +1,9 @@
 ## GNOME Shell extensions
 - [Keyboard Informer](https://github.com/tomasmark79/kbd-informer) — show modifier and lock-key states in GNOME Shell [5751 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)
 - [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — create a smooth, adjustable blurred wallpaper [1015 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
-- [My Vision](https://github.com/tomasmark79/my-vision) — save and quickly switch between display profiles [378 Downloads](https://extensions.gnome.org/extension/9014/my-vision/)
+- [My Vision](https://github.com/tomasmark79/my-vision) — save and quickly switch between display profiles [379 Downloads](https://extensions.gnome.org/extension/9014/my-vision/)
 - [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [121 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
-- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — translate selected drafts in whole GNOME Shell [0 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
+- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — translate selected drafts in whole GNOME Shell [2 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
 
 ## NixOS Tools
 
@@ -17,11 +17,13 @@
  - [NixonCpp](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp)
 
 <!-- readme-pdf:exclude:start -->
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/factory/workshop-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/factory/workshop-light.svg" />
-  <img alt="The package workshop — my most active public projects over the last 30 days" src="assets/factory/workshop.svg" width="1120" />
+  <img alt="The package workshop — my most active public projects over the last 30 days" src="assets/factory/workshop.svg" width="80%" />
 </picture>
+</p>
 <!-- readme-pdf:exclude:end -->
 
 ## Translation Bundle

@@ -10,6 +10,7 @@ import re
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[2]
+TITLE = 'tomasmark79'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--data', type=Path, default=ROOT / 'assets/factory/activity.json')
 parser.add_argument('--output', type=Path, default=ROOT / 'assets/factory')
@@ -55,7 +56,7 @@ for slot in range(CYCLE if total else 0):
 CORNER_LENGTH = 27 * (1 + math.asinh(1) / math.sqrt(2))
 
 parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" viewBox="0 0 1096 590" role="img" aria-labelledby="workshop-title workshop-desc">
-<title id="workshop-title">__WORKSHOP_OWNER__</title>
+<title id="workshop-title">__WORKSHOP_TITLE__</title>
 <desc id="workshop-desc">Five public projects send packages to an assembler building the Nixon logo. Traffic reflects indexed authored commits from September 20 through October 19, 2026. Assembly is illustrative and does not represent CI results.</desc>
 <defs>
  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#cdd5db"/></pattern>
@@ -86,7 +87,7 @@ parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" vi
 </style>
 <rect width="1096" height="590" rx="20" fill="#f5f7f9"/>
 <rect x="24" y="120" width="1048" height="450" rx="16" fill="url(#grid)"/>
-<text x="48" y="74" font-size="34" font-weight="750" letter-spacing="-1.2">__WORKSHOP_OWNER__</text>
+<text x="48" y="74" font-size="34" font-weight="750" letter-spacing="-1.2">__WORKSHOP_TITLE__</text>
 <text x="1048" y="74" text-anchor="end" class="tiny muted">__ACTIVE_PROJECTS__ · LAST 30 DAYS</text>
 <!-- The delivery belt turns up and back into the assembly chamber. -->
 <path d="M78 350H1003Q1030 350 1030 323V260Q1030 233 1003 233H417" fill="none" stroke="#c6d1db" stroke-width="30"/>
@@ -209,7 +210,7 @@ for i, (name, commits, color) in enumerate(REPOS):
 parts.append('</svg>')
 
 svg = '\n'.join(parts)
-svg = svg.replace('__WORKSHOP_OWNER__', escape(owner))
+svg = svg.replace('__WORKSHOP_TITLE__', escape(TITLE))
 project_label = 'ACTIVE PROJECT' if active_count == 1 else 'ACTIVE PROJECTS'
 svg = svg.replace('__ACTIVE_PROJECTS__', f'{active_count} {project_label}')
 # Substitute the current data into the approved composition.
