@@ -3,6 +3,7 @@
 - [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — create a smooth, adjustable blurred wallpaper [1015 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
 - [My Vision](https://github.com/tomasmark79/my-vision) — save and quickly switch between display profiles [378 Downloads](https://extensions.gnome.org/extension/9014/my-vision/)
 - [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [121 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
+- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — translate selected drafts in whole GNOME Shell [0 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
 
 ## NixOS Tools
 
