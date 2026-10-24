@@ -1,9 +1,9 @@
 ## GNOME Shell extensions
-- [Keyboard Informer](https://github.com/tomasmark79/kbd-informer) — show modifier and lock-key states in GNOME Shell [5751 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)
-- [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — create a smooth, adjustable blurred wallpaper [1015 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
+- [Keyboard Informer](https://github.com/tomasmark79/kbd-informer) — show modifier and lock-key states in GNOME Shell [5759 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)
+- [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — create a smooth, adjustable blurred wallpaper [1052 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
 - [My Vision](https://github.com/tomasmark79/my-vision) — save and quickly switch between display profiles [379 Downloads](https://extensions.gnome.org/extension/9014/my-vision/)
-- [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [121 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
-- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — translate selected drafts in whole GNOME Shell [2 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
+- [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [122 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
+- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — translate selected drafts in whole GNOME Shell [4 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
 
 ## NixOS Tools
 
