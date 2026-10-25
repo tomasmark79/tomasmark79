@@ -12,6 +12,12 @@ import time
 from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
 
+EXCLUDED_REPOSITORIES = frozenset({'tomasmark79/tomasmark79'})
+
+
+def is_excluded(repo):
+    return repo['full_name'].casefold() in EXCLUDED_REPOSITORIES
+
 
 def github_api(endpoint):
     """Use gh's local authentication or GH_TOKEN in Actions, without logging it."""
@@ -36,6 +42,7 @@ def collect(owner, end, api=github_api):
 
     def search(first, last):
         query = f'author:{owner} user:{owner} is:public author-date:{first}..{last}'
+        query += ''.join(f' -repo:{name}' for name in sorted(EXCLUDED_REPOSITORIES))
         def page(number):
             data = api('search/commits?' + urlencode({
                 'q': query, 'per_page': 100, 'page': number,
@@ -64,7 +71,8 @@ def collect(owner, end, api=github_api):
             raise RuntimeError('Commit search pagination is incomplete or duplicated')
         for item in items:
             repo = item['repository']
-            if repo['private'] or repo['owner']['login'].casefold() != owner.casefold():
+            if (repo['private'] or repo['owner']['login'].casefold() != owner.casefold()
+                    or is_excluded(repo)):
                 continue
             if (item.get('author') or {}).get('type') == 'Bot':
                 continue
@@ -78,6 +86,7 @@ def collect(owner, end, api=github_api):
         public = api(f'users/{owner}/repos?sort=pushed&direction=desc&per_page=100&type=owner')
         for repo in public:
             if (not repo['private'] and repo['owner']['login'].casefold() == owner.casefold()
+                    and not is_excluded(repo)
                     and repo['name'] not in ranked):
                 ranked.append(repo['name'])
                 if len(ranked) == 5:

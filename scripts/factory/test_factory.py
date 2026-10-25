@@ -33,6 +33,23 @@ def result(items, total=None, incomplete=False):
 
 
 class ActivityTests(unittest.TestCase):
+    def test_profile_repository_is_excluded_from_commits_and_quiet_stations(self):
+        for active in [False, True]:
+            with self.subTest(active=active):
+                def api(endpoint):
+                    if endpoint.startswith('users/'):
+                        return [repo('TomasMark79', owner='TomasMark79'),
+                                repo('quiet', owner='tomasmark79')]
+                    query = parse_qs(urlparse(endpoint).query)['q'][0]
+                    self.assertIn('-repo:tomasmark79/tomasmark79', query)
+                    return result([item('TomasMark79', 'profile', owner='TomasMark79')]
+                                  + ([item('project', 'real', owner='tomasmark79')] if active else []))
+                data = fetch.collect('tomasmark79', date(2026, 10, 25), api)
+                self.assertEqual(data['total_commits'], int(active))
+                self.assertEqual(data['repositories'],
+                                 ([{'name': 'project', 'commits': 1}] if active else [])
+                                 + [{'name': 'quiet', 'commits': 0}])
+
     def test_paginated_public_only_and_deterministic_ties(self):
         rows = [item('zeta', str(i)) for i in range(50)]
         rows += [item('alpha', str(i)) for i in range(50)]

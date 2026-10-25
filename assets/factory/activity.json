@@ -4,15 +4,11 @@
   "start": "2026-09-26",
   "end": "2026-10-25",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 161,
+  "total_commits": 133,
   "repositories": [
     {
       "name": "nixberry",
       "commits": 34
-    },
-    {
-      "name": "tomasmark79",
-      "commits": 28
     },
     {
       "name": "translation-api",
@@ -25,6 +21,10 @@
     {
       "name": "WebTranslatePlace",
       "commits": 19
+    },
+    {
+      "name": "gnome-shell-restart-nix",
+      "commits": 6
     }
   ]
 }
