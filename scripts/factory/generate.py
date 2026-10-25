@@ -59,7 +59,6 @@ parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" vi
 <title id="workshop-title">__WORKSHOP_TITLE__</title>
 <desc id="workshop-desc">Five public projects send packages to an assembler building the Nixon logo. Traffic reflects indexed authored commits from September 20 through October 19, 2026. Assembly is illustrative and does not represent CI results.</desc>
 <defs>
- <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#cdd5db"/></pattern>
  <pattern id="rollers" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M4 0v18" stroke="#9caab8" stroke-width="2"/></pattern>
  <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e4e9ed"/></linearGradient>
  <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#e4f0fc"/><stop offset="1" stop-color="#f6faff"/></linearGradient>
@@ -85,8 +84,6 @@ parts = ['''<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" vi
  @keyframes working{0%,76%{opacity:1}79%,94%{opacity:0}100%{opacity:1}}
  @media(prefers-reduced-motion:reduce){*{animation:none!important}animateMotion{display:none}.flake{opacity:1!important}.completed{opacity:1}.working{opacity:0}.moving,.arrival-flash{display:none}}
 </style>
-<rect width="1096" height="590" rx="20" fill="#f5f7f9"/>
-<rect x="24" y="120" width="1048" height="450" rx="16" fill="url(#grid)"/>
 <text x="48" y="74" font-size="34" font-weight="750" letter-spacing="-1.2">__WORKSHOP_TITLE__</text>
 <text x="1048" y="74" text-anchor="end" class="tiny muted">__ACTIVE_PROJECTS__ · LAST 30 DAYS</text>
 <!-- The delivery belt turns up and back into the assembly chamber. -->

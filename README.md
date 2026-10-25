@@ -1,49 +1,46 @@
-## GNOME Shell extensions
-- [Keyboard Informer](https://github.com/tomasmark79/kbd-informer) — show modifier and lock-key states in GNOME Shell [5764 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)
-- [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — create a smooth, adjustable blurred wallpaper [1078 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
-- [My Vision](https://github.com/tomasmark79/my-vision) — save and quickly switch between display profiles [379 Downloads](https://extensions.gnome.org/extension/9014/my-vision/)
-- [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [122 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
-- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — translate selected drafts in whole GNOME Shell [8 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
+# tomasmark79
 
-## Outsourcing tools
+Tools for GNOME, translation, backups, infrastructure, development, and music.
 
- - [outsource](https://github.com/tomasmark79/outsource) - A simple wizard for RDP, SSH, and virt-viewer launchers in the GNOME.
+## GNOME extensions
 
-## NixOS tools
+- [Keyboard Informer](https://github.com/tomasmark79/kbd-informer) — Shows active keyboard modifiers in the top panel and on-screen notifications when lock keys change state. [5764 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)
+- [Blur Wallpaper](https://github.com/tomasmark79/blur-wallpaper) — Adjusts wallpaper blur independently for the desktop and Activities overview, with support for light and dark wallpapers. [1078 Downloads](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/)
+- [My Vision](https://github.com/tomasmark79/my-vision) — Saves and switches monitor configurations from Quick Settings or keyboard shortcuts, with profiles tied to physical monitors and laptop lid conditions. [379 Downloads](https://extensions.gnome.org/extension/9014/my-vision/)
+- [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — Distributes windows across workspaces, one per workspace, and collects them back onto the current workspace. [122 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
+- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — Translates selected text through your own AI server, with two target languages, keyboard shortcuts, and local history. [8 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
 
-**One recipe. Multiple machines. Reproducible NixOS servers.**
+## Translation
 
- - [NixBerry](https://github.com/tomasmark79/nixberry) lets you build and manage servers from declarative configuration. Keep the system in a shared recipe, then define each machine's configuration, platform, network and resources — making it easier to recreate a server or add another machine. **Platforms:** QEMU/KVM (libvirt) · Hyper-V · Proxmox VE · VirtualBox · VMware Workstation · Raspberry Pi 5.  
- [NixBerry Matrix Channel](https://matrix.to/#/#nixberry:matrix.org)
+Translate selected text with your own AI translation server and extensions for your desktop, browser, or email client.
 
-**A starting point for command-line applications.**
+- [Translation API](https://github.com/tomasmark79/translation-api) — The shared server, using Ollama and `translategemma:4b` by default.
+- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — A GNOME Shell extension with two target languages, configurable shortcuts, local history, and optional automatic replacement of selected text.
+- [WebTranslatePlace](https://github.com/tomasmark79/WebTranslatePlace) — Extensions for selected drafts in Chrome/Chromium and Firefox, selected email text in Thunderbird, and Discord messages. Includes draft history and two target languages. Supports replacing selections while composing and viewing translations separately while reading email.
 
- - [NixonCpp](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp)
+Start with the Translation API README to install Ollama, download the model, and run the server on your computer. Then follow your chosen extension's README. Both extensions connect to `http://127.0.0.1:5001` by default. WebTranslatePlace also has Safari and GNOME Web targets; Safari requires live verification, and GNOME Web is experimental with known failures.
 
-## Translation Bundle
+## Backups
 
-Translate selected text with your own AI translation server. Start with the server, then choose the extension for your desktop, browser or email client:
+- [SafeData](https://github.com/tomasmark79/safedata) — A backup script for LVM volumes and regular directories. Supports rsync and tar backups with include, exclude, or all filtering rules while preserving extended filesystem metadata.
 
-- [Translation API](https://github.com/tomasmark79/translation-api) — the shared server, using Ollama and `translategemma:4b` by default. Its README covers installing Ollama, downloading the model and starting the API on your computer.
-- [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — a GNOME Shell extension with two target languages, configurable shortcuts, local history and optional automatic replacement of selected text.
-- [WebTranslatePlace](https://github.com/tomasmark79/WebTranslatePlace) — translate selected drafts in Chrome/Chromium and Firefox, or selected email text in Thunderbird. Replace selections while composing; view translations separately while reading email. Includes draft history, two target languages and additional Discord message translation.
+## Infrastructure
 
-Both extensions connect to Translation API at `http://127.0.0.1:5001` by default. Follow the chosen extension's README for installation. WebTranslatePlace also has Safari and GNOME Web targets; Safari requires live verification, and GNOME Web is experimental with known failures.
+- [NixBerry](https://github.com/tomasmark79/nixberry) — Build and manage servers from declarative configuration. Join the [Matrix channel](https://matrix.to/#/#nixberry:matrix.org).
+- [Outsource](https://github.com/tomasmark79/outsource) — A simple wizard for creating RDP, SSH, and virt-viewer launchers in GNOME.
 
-## Filesystem tools
-- [Modern Midnight Commander](https://github.com/tomasmark79/mc) — a fork with trash actions, Wayland clipboard support, DotName skins, and ultra-fast ZIP extraction, packaged with Nix.
+## Development
 
-## Backup tools
-- [SafeData](https://github.com/tomasmark79/safedata) — Universal backup script for LVM volumes and regular directories. It supports rsync and tar backups with include, exclude, or all filtering rules while preserving extended filesystem metadata.
+- [NixonCpp](https://github.com/tomasmark79/NixonCpp) — A starting point for command-line applications in C++20+.
+- [Emcx](https://github.com/tomasmark79/emcx) — A build of upstream Midnight Commander master with a small set of functional and identity [patches](https://github.com/tomasmark79/emcx/blob/main/nix/README.md).
 
-## Music production hardware & software
-- [Sound & Space](https://music.digitalspace.name) is my digital web space for sharing my own sounds and space creations.
-- [DreamScaler](https://tomasmark79.github.io/DreamScalerWeb) — DreamScaler brings musical scales, harmony, and color to your keys with a standalone app and an LED strip.
-- [Bitwig Cheatsheet](https://github.com/tomasmark79/bitwig-cheatsheet) — find Bitwig Studio keyboard shortcuts for Windows, Linux, and macOS mapped to a standard ISO/QWERTY keyboard layout.
-- [Bitwig Transport Control Script](https://github.com/tomasmark79/bitwig-transport-control-script) — control Bitwig Studio transport with mouse side buttons, even when a plugin window has focus, on Linux with X11.
+## Music and creative projects
+
+- [Sound & Space](https://music.digitalspace.name) — My digital space for sharing sounds and creative work.
+- [DreamScaler](https://tomasmark79.github.io/DreamScalerWeb) — A standalone app and LED strip that bring musical scales, harmony, and dynamic colors to your keys.
 
 <!-- readme-pdf:exclude:start -->
-<p align="left">
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/factory/workshop-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/factory/workshop-light.svg" />
