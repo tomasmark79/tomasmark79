@@ -5,7 +5,11 @@
 - [Window Shuffle](https://github.com/tomasmark79/window-shuffle) — distribute windows across workspaces and collect them back [122 Downloads](https://extensions.gnome.org/extension/10853/window-shuffle/)
 - [TranslatePlace](https://github.com/tomasmark79/TranslatePlace) — translate selected drafts in whole GNOME Shell [8 Downloads](https://extensions.gnome.org/extension/11231/translateplace/)
 
-## NixOS Tools
+## Outsourcing tools
+
+ - [outsource](https://github.com/tomasmark79/outsource) - A simple wizard for RDP, SSH, and virt-viewer launchers in the GNOME.
+
+## NixOS tools
 
 **One recipe. Multiple machines. Reproducible NixOS servers.**
 
@@ -15,16 +19,6 @@
 **A starting point for command-line applications.**
 
  - [NixonCpp](https://github.com/tomasmark79/NixonCpp) — Create your C++ applications and libraries. [A running WebAssembly build that documents the project it represents.](https://tomasmark79.github.io/NixonCpp)
-
-<!-- readme-pdf:exclude:start -->
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/factory/workshop-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/factory/workshop-light.svg" />
-  <img alt="The package workshop — my most active public projects over the last 30 days" src="assets/factory/workshop.svg" width="80%" />
-</picture>
-</p>
-<!-- readme-pdf:exclude:end -->
 
 ## Translation Bundle
 
@@ -47,3 +41,13 @@ Both extensions connect to Translation API at `http://127.0.0.1:5001` by default
 - [DreamScaler](https://tomasmark79.github.io/DreamScalerWeb) — DreamScaler brings musical scales, harmony, and color to your keys with a standalone app and an LED strip.
 - [Bitwig Cheatsheet](https://github.com/tomasmark79/bitwig-cheatsheet) — find Bitwig Studio keyboard shortcuts for Windows, Linux, and macOS mapped to a standard ISO/QWERTY keyboard layout.
 - [Bitwig Transport Control Script](https://github.com/tomasmark79/bitwig-transport-control-script) — control Bitwig Studio transport with mouse side buttons, even when a plugin window has focus, on Linux with X11.
+
+<!-- readme-pdf:exclude:start -->
+<p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/factory/workshop-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/factory/workshop-light.svg" />
+  <img alt="The package workshop — my most active public projects over the last 30 days" src="assets/factory/workshop.svg" width="100%" />
+</picture>
+</p>
+<!-- readme-pdf:exclude:end -->
