@@ -9,7 +9,7 @@ from urllib.request import urlopen
 
 
 LABEL = re.compile(
-    r"\[\d+ Downloads\]\((https://extensions\.gnome\.org/extension/(\d+)/[^)]+)\)"
+    r"\[\d+\]\((https://extensions\.gnome\.org/extension/(\d+)/[^)]+)\)"
 )
 
 
@@ -28,7 +28,7 @@ def update_readme(text, fetch=fetch_downloads):
         raise ValueError("No GNOME download labels found in README")
 
     def replace(match):
-        return f"[{fetch(match[2])} Downloads]({match[1]})"
+        return f"[{fetch(match[2])}]({match[1]})"
 
     return LABEL.sub(replace, text)
 

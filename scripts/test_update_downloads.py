@@ -4,8 +4,8 @@ from update_downloads import update_readme
 
 
 class DownloadLabelsTest(unittest.TestCase):
-    def test_old_and_current_layout_preserve_surrounding_text(self):
-        label = "[10 Downloads](https://extensions.gnome.org/extension/8500/keyboard-informer/)"
+    def test_numeric_labels_preserve_surrounding_text(self):
+        label = "[10](https://extensions.gnome.org/extension/8500/keyboard-informer/)"
         for line in (
             f"- [**Keyboard Informer**](https://example.com) {label} — description.\n",
             f"- [Keyboard Informer](https://example.com) — description {label}\n",
@@ -19,7 +19,7 @@ class DownloadLabelsTest(unittest.TestCase):
 
                 self.assertEqual(
                     update_readme(line, fetch),
-                    line.replace("[10 Downloads]", "[5729 Downloads]"),
+                    line.replace("[10]", "[5729]"),
                 )
                 self.assertEqual(seen, ["8500"])
 
@@ -33,7 +33,7 @@ class DownloadLabelsTest(unittest.TestCase):
 
         with self.assertRaises(OSError):
             update_readme(
-                "[10 Downloads](https://extensions.gnome.org/extension/8500/example/)",
+                "[10](https://extensions.gnome.org/extension/8500/example/)",
                 fail,
             )
 
