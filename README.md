@@ -3,7 +3,7 @@
 - **Keyboard Informer** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/kbd-informer) [5766↓](https://extensions.gnome.org/extension/8500/keyboard-informer/) — Shows active keyboard modifiers in the top panel and on-screen notifications when lock keys change state.
 - **Blur Wallpaper** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/blur-wallpaper) [1087↓](https://extensions.gnome.org/extension/9556/blur-wallpaper-with-adjustable-intensity/) — Adjusts wallpaper blur independently for the desktop and Activities overview, with support for light and dark wallpapers.
 - **My Vision** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/my-vision) [380↓](https://extensions.gnome.org/extension/9014/my-vision/) — Saves and switches monitor configurations from Quick Settings or keyboard shortcuts, with profiles tied to physical monitors and laptop lid conditions.
-- **Window Shuffle** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/window-shuffle) [122↓](https://extensions.gnome.org/extension/10853/window-shuffle/) — Distributes windows across workspaces, one per workspace, and collects them back onto the current workspace.
+- **Window Shuffle** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/window-shuffle) [123↓](https://extensions.gnome.org/extension/10853/window-shuffle/) — Distributes windows across workspaces, one per workspace, and collects them back onto the current workspace.
 - **TranslatePlace** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/TranslatePlace) [13↓](https://extensions.gnome.org/extension/11231/translateplace/) — Translates selected text through your own AI server, with two target languages, keyboard shortcuts, and local history.
 
 ## Translation
