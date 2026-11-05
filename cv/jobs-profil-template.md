@@ -1,19 +1,28 @@
-# Profil na Jobs — šablona
-
 Dosavadní zkušenosti
 
-Nejvíce praktických zkušeností jsem v posledních dvou letech získal při práci na různorodých softwarových projektech. Díky nástupu AI jsem měl možnost opakovaně projít celým vývojovým procesem, od návrhu a implementace až po testování, ladění a dokumentaci. Získal jsem tak velmi cenné zkušenosti nejen se samotným vývojem software, ale také s hledáním vhodných řešení a jejich praktickým využitím.
+Vývoj software
+- Praktické zkušenosti s vývojem různorodých softwarových projektů
+- Využití AI při návrhu, implementace, testování, ladění a dokumentace
+- Vývoj doplňků pro prostředí GNOME
+- Vývoj software pro embedded zařízení
+- Návrh a realizace praktických technických řešení
 
-Zaměřoval jsem se především na automatizaci, zlepšování uživatelského komfortu, vývoj doplňků pro prostředí GNOME, automatizaci infrastruktury a vývoj software pro různá embedded zařízení.
+Linux a infrastruktura
+- Linuxové systémy a jejich konfigurace
+- Automatizace infrastruktury a opakujících se činnosti
+- Integrace systémů a technologií
+- Praktické zkušenosti i s prostředím Microsoft
+- Diagnostika a řešení technických problémů
 
-Vedle Linuxu mám také praktické zkušenosti se systémy Microsoft Windows a dalšími technologiemi běžně využívanými v IT.
+Automatizace a technická řešení
+- Automatizace pracovních postupů
+- Zjednodušování a optimalizace technických procesů
+- Zlepšování uživatelského komfortu
+- Testování, ladění a ověřování funkčnosti
+- Tvorba technické dokumentace
 
-Věnuji se také integraci systémů, diagnostice technických problémů a tvorbě dokumentace. Baví mě hledat praktická řešení, zjednodušovat opakující se činnosti a zlepšovat fungování technických systémů.
-
-Rád bych své dosavadní zkušenosti dále rozvíjel v prostředí, kde budu mít možnost dlouhodobě pracovat na technických řešeních, získávat nové znalosti a být součástí stabilního týmu.
-
-Vzdělání
-
-Jsem vyučený kuchař, ale bezprostředně po vojně jsem se začal věnovat informačním technologiím, kterým se s různými přestávkami věnuji až do současnosti.
-
-V roce 2011 jsem zahájil také dálkové studium na střední škole v Sokolově. Po přestěhování do Prahy jsem však studium ve čtvrtém pololetí přerušil a dosud se k němu nevrátil.
+Další odborné činnosti
+- Skladové hospodářství a logistika
+- Praktické využití AI při řešení technických úloh
+- Sdílení technických zkušeností a znalostí
+- Pomoc studentům při řešení odborných IT problémů
