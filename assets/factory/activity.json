@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-07",
-  "end": "2026-11-05",
+  "start": "2026-10-08",
+  "end": "2026-11-06",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 180,
+  "total_commits": 165,
   "repositories": [
     {
       "name": "nixberry",
@@ -12,7 +12,7 @@
     },
     {
       "name": "translation-api",
-      "commits": 31
+      "commits": 25
     },
     {
       "name": "WebTranslatePlace",
@@ -20,7 +20,7 @@
     },
     {
       "name": "TranslatePlace",
-      "commits": 16
+      "commits": 13
     },
     {
       "name": "outsource",
