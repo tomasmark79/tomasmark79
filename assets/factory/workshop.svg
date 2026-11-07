@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1096" height="590" viewBox="0 0 1096 590" role="img" aria-labelledby="workshop-title workshop-desc">
 <title id="workshop-title">tomasmark79</title>
-<desc id="workshop-desc">5 active public projects send packages to an assembler building the Nixon logo. Traffic reflects indexed authored commits from 2026-10-08 through 2026-11-06. Assembly is illustrative and does not represent CI results.</desc>
+<desc id="workshop-desc">5 active public projects send packages to an assembler building the Nixon logo. Traffic reflects indexed authored commits from 2026-10-09 through 2026-11-07. Assembly is illustrative and does not represent CI results.</desc>
 <defs>
  <pattern id="rollers" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M4 0v18" stroke="#9caab8" stroke-width="2"/></pattern>
  <linearGradient id="metal" x2="0" y2="1"><stop stop-color="var(--metal-top)"/><stop offset="1" stop-color="var(--tone-4)"/></linearGradient>
@@ -166,7 +166,7 @@
 <rect x="413" y="215" width="8" height="36" rx="4"/>
 <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.008;.03;1" dur="18s" begin="-1s" repeatCount="indefinite"/>
 </g>
-<!-- translation-api: 25 indexed authored commits. -->
+<!-- translation-api: 23 indexed authored commits. -->
 <a href="https://github.com/tomasmark79/translation-api">
 <path d="M323 424v-62" stroke="var(--tone-24)" stroke-width="22"/>
 <path d="M323 424v-62" stroke="var(--tone-25)" stroke-width="16"/>
@@ -178,15 +178,15 @@
 <rect x="296" y="391" width="55" height="41" rx="4" fill="#263f52"/>
 <path class="press" d="M303 393h41v10h-41z" fill="#90a6b7"/>
 <path d="M300 425h47" stroke="#e3edf3" stroke-width="3"/>
-<circle cx="265" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:4.87s"/>
+<circle cx="265" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:5.30s"/>
 <circle cx="382" cy="405" r="3" fill="#203648" opacity=".5"/>
 <rect x="257" y="440" width="78" height="39" rx="4" fill="#203648"/>
 <text x="266" y="455" class="mono" font-size="9" style="fill:#b6a0de">repo_02</text>
 <text x="266" y="470" class="mono" font-size="9" style="fill:#e8eff5">working<tspan class="lamp">...</tspan></text>
-<g transform="translate(366 459)"><use href="#gear" class="cog" style="animation-duration:14.62s"/></g>
+<g transform="translate(366 459)"><use href="#gear" class="cog" style="animation-duration:15.89s"/></g>
 <path d="M257 489h133" stroke="var(--tone-32)"/>
 <text x="323" y="543" text-anchor="middle" font-size="12.00" font-weight="650">translation-api</text>
-<text x="323" y="564" text-anchor="middle" font-size="11" class="mono muted">25 commits</text>
+<text x="323" y="564" text-anchor="middle" font-size="11" class="mono muted">23 commits</text>
 </a>
 <g class="moving" color="#b6a0de"><g><use href="#parcel"/>
 <animateMotion dur="18s" begin="-13.84654163s" repeatCount="indefinite" path="M323 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.824807868;1" calcMode="linear"/>
@@ -215,7 +215,7 @@
 <rect x="413" y="215" width="8" height="36" rx="4"/>
 <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.008;.03;1" dur="18s" begin="-2s" repeatCount="indefinite"/>
 </g>
-<!-- WebTranslatePlace: 19 indexed authored commits. -->
+<!-- WebTranslatePlace: 17 indexed authored commits. -->
 <a href="https://github.com/tomasmark79/WebTranslatePlace">
 <path d="M517 424v-62" stroke="var(--tone-24)" stroke-width="22"/>
 <path d="M517 424v-62" stroke="var(--tone-25)" stroke-width="16"/>
@@ -227,15 +227,15 @@
 <rect x="490" y="391" width="55" height="41" rx="4" fill="#263f52"/>
 <path class="press" d="M497 393h41v10h-41z" fill="#90a6b7"/>
 <path d="M494 425h47" stroke="#e3edf3" stroke-width="3"/>
-<circle cx="459" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:6.41s"/>
+<circle cx="459" cy="405" r="4" fill="#f8faff" class="lamp" style="animation-duration:7.16s"/>
 <circle cx="576" cy="405" r="3" fill="#203648" opacity=".5"/>
 <rect x="451" y="440" width="78" height="39" rx="4" fill="#203648"/>
 <text x="460" y="455" class="mono" font-size="9" style="fill:#f0ba68">repo_03</text>
 <text x="460" y="470" class="mono" font-size="9" style="fill:#e8eff5">working<tspan class="lamp">...</tspan></text>
-<g transform="translate(560 459)"><use href="#gear" class="cog" style="animation-duration:19.23s"/></g>
+<g transform="translate(560 459)"><use href="#gear" class="cog" style="animation-duration:21.49s"/></g>
 <path d="M451 489h133" stroke="var(--tone-32)"/>
 <text x="517" y="543" text-anchor="middle" font-size="12.00" font-weight="650">WebTranslatePlace</text>
-<text x="517" y="564" text-anchor="middle" font-size="11" class="mono muted">19 commits</text>
+<text x="517" y="564" text-anchor="middle" font-size="11" class="mono muted">17 commits</text>
 </a>
 <g class="moving" color="#f0ba68"><g><use href="#parcel"/>
 <animateMotion dur="18s" begin="-9.90654163s" repeatCount="indefinite" path="M517 420V350H1003Q1030 350 1030 323V260Q1030 233 1003 233H419" keyPoints="0;1;1" keyTimes="0;0.717030091;1" calcMode="linear"/>
