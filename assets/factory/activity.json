@@ -1,14 +1,18 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-10",
-  "end": "2026-11-08",
+  "start": "2026-10-11",
+  "end": "2026-11-09",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 178,
+  "total_commits": 194,
   "repositories": [
     {
       "name": "nixberry",
-      "commits": 104
+      "commits": 106
+    },
+    {
+      "name": "my-vision",
+      "commits": 23
     },
     {
       "name": "outsource",
@@ -16,11 +20,7 @@
     },
     {
       "name": "translation-api",
-      "commits": 12
-    },
-    {
-      "name": "WebTranslatePlace",
-      "commits": 9
+      "commits": 11
     },
     {
       "name": "safedata",
