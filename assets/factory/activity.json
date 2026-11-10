@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-11",
-  "end": "2026-11-09",
+  "start": "2026-10-12",
+  "end": "2026-11-10",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 194,
+  "total_commits": 197,
   "repositories": [
     {
       "name": "nixberry",
-      "commits": 106
+      "commits": 110
     },
     {
       "name": "my-vision",
@@ -20,7 +20,7 @@
     },
     {
       "name": "translation-api",
-      "commits": 11
+      "commits": 10
     },
     {
       "name": "safedata",
