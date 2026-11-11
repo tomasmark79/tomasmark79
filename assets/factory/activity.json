@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-12",
-  "end": "2026-11-10",
+  "start": "2026-10-13",
+  "end": "2026-11-11",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 197,
+  "total_commits": 189,
   "repositories": [
     {
       "name": "nixberry",
@@ -19,12 +19,12 @@
       "commits": 12
     },
     {
-      "name": "translation-api",
-      "commits": 10
-    },
-    {
       "name": "safedata",
       "commits": 8
+    },
+    {
+      "name": "gnome-shell-restart-nix",
+      "commits": 6
     }
   ]
 }
