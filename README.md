@@ -43,4 +43,6 @@ Start with the Translation API README to install Ollama, download the model, and
   <img alt="The package workshop — my most active public projects over the last 30 days" src="assets/factory/workshop.svg" width="100%" />
 </picture>
 </p>
+
+![Profile views](https://komarev.com/ghpvc/?username=tomasmark79)
 <!-- readme-pdf:exclude:end -->
