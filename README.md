@@ -22,7 +22,7 @@ Start with the Translation API README to install Ollama, download the model, and
 
 ## Infrastructure
 
-- **NixBerry** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/nixberry) — Build and manage servers from declarative configuration. Join the [Matrix channel](https://matrix.to/#/#nixberry:matrix.org).
+- **NixBerry** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/nixberry) — Build and manage NixOS servers from declarative configuration. Join the [Matrix channel](https://matrix.to/#/#nixberry:matrix.org).
 - **Outsource** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/outsource) — A simple wizard for creating RDP, SSH, and virt-viewer launchers in GNOME.
 
 ## Development
