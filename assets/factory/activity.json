@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-14",
-  "end": "2026-11-12",
+  "start": "2026-10-15",
+  "end": "2026-11-13",
   "metric": "indexed authored commits in public owned repositories",
   "total_commits": 187,
   "repositories": [
