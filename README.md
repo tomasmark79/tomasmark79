@@ -33,7 +33,7 @@ Start with the Translation API README to install Ollama, download the model, and
 - **Emcx** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/emcx) — A build of upstream Midnight Commander master with a small set of functional and identity [patches](https://github.com/tomasmark79/emcx/blob/main/nix/README.md).
 
 ## Music and creative projects
-
+- **MuTheChords** [![GitHub](assets/github.svg)](https://github.com/tomasmark79/MuTheChords) —  A multiplatform MIDI chord generator, music-theory engine, and rhythmic performance processor.
 - [**Sound & Space**](https://music.digitalspace.name) — My digital space for sharing sounds and creative work.
 - [**DreamScaler**](https://tomasmark79.github.io/DreamScalerWeb) — A standalone app and LED strip that bring musical scales, harmony, and dynamic colors to your keys.
 
