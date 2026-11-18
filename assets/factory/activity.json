@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-19",
-  "end": "2026-11-17",
+  "start": "2026-10-20",
+  "end": "2026-11-18",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 201,
+  "total_commits": 218,
   "repositories": [
     {
       "name": "nixberry",
-      "commits": 115
+      "commits": 111
     },
     {
       "name": "my-vision",
-      "commits": 23
+      "commits": 28
+    },
+    {
+      "name": "MuTheChords",
+      "commits": 14
     },
     {
       "name": "outsource",
       "commits": 12
-    },
-    {
-      "name": "MuTheChords",
-      "commits": 9
     },
     {
       "name": "safedata",
