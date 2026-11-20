@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-21",
-  "end": "2026-11-19",
+  "start": "2026-10-22",
+  "end": "2026-11-20",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 232,
+  "total_commits": 228,
   "repositories": [
     {
       "name": "nixberry",
-      "commits": 115
+      "commits": 117
     },
     {
       "name": "my-vision",
