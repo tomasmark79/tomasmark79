@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-23",
-  "end": "2026-11-21",
+  "start": "2026-10-24",
+  "end": "2026-11-22",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 226,
+  "total_commits": 208,
   "repositories": [
     {
       "name": "nixberry",
-      "commits": 117
+      "commits": 112
     },
     {
       "name": "my-vision",
-      "commits": 31
+      "commits": 29
     },
     {
       "name": "MuTheChords",
@@ -20,11 +20,11 @@
     },
     {
       "name": "outsource",
-      "commits": 12
+      "commits": 11
     },
     {
-      "name": "blur-wallpaper",
-      "commits": 8
+      "name": "safedata",
+      "commits": 7
     }
   ]
 }
