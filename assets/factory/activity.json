@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-28",
-  "end": "2026-11-26",
+  "start": "2026-10-29",
+  "end": "2026-11-27",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 183,
+  "total_commits": 196,
   "repositories": [
     {
       "name": "nixberry",
-      "commits": 91
+      "commits": 105
     },
     {
       "name": "my-vision",
@@ -23,8 +23,8 @@
       "commits": 7
     },
     {
-      "name": "safedata",
-      "commits": 7
+      "name": "gyrus",
+      "commits": 6
     }
   ]
 }
