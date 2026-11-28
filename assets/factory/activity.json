@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "owner": "tomasmark79",
-  "start": "2026-10-29",
-  "end": "2026-11-27",
+  "start": "2026-10-30",
+  "end": "2026-11-28",
   "metric": "indexed authored commits in public owned repositories",
-  "total_commits": 196,
+  "total_commits": 203,
   "repositories": [
     {
       "name": "nixberry",
-      "commits": 105
+      "commits": 103
     },
     {
       "name": "my-vision",
@@ -19,12 +19,12 @@
       "commits": 15
     },
     {
-      "name": "AILivingMaze",
-      "commits": 7
+      "name": "NixonCpp",
+      "commits": 11
     },
     {
-      "name": "gyrus",
-      "commits": 6
+      "name": "AILivingMaze",
+      "commits": 7
     }
   ]
 }
